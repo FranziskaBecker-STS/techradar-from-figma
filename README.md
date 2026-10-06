@@ -1,11 +1,13 @@
 # SYZYGY Techradar – responsive Vorschau
 
+**Öffentliche Vorschau:** [Techradar im Browser öffnen](https://franziskabecker-sts.github.io/techradar-from-figma/). Dieser Link kann ohne lokale Installation mit Kolleg:innen geteilt werden. Die zwölf vorhandenen Seiten und sechs veröffentlichte Asset-Dateien wurden per HTTP ohne Anmeldung geprüft; der vollständige Veröffentlichungsworkflow war erfolgreich. Eine erneute Sicht- und Interaktionsprüfung im Browser bleibt wegen der administrativen Zugriffssperre offen. Prüfbericht: `verification/pages-publication-report.json`.
+
 Lauffähige React-/TypeScript-Anwendung mit Vite, React Router und eigenem CSS.
 Die Figma-Datei wurde nur über MCP gelesen. Dieses Repository enthält ausschließlich das Techradar-Projekt; die übrigen Dateien des ursprünglichen Arbeitsordners wurden nicht übernommen.
 
 ## Start
 
-Voraussetzung: Node.js 22.12 oder neuer; getestet mit Node.js 24.12.
+Voraussetzung für den dokumentierten Entwicklungs- und Prüfablauf: Node.js 24; lokal getestet mit Node.js 24.12.
 
 ```sh
 npm install

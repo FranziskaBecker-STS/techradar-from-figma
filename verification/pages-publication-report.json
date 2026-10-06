@@ -1,0 +1,95 @@
+{
+  "url": "https://franziskabecker-sts.github.io/techradar-from-figma/",
+  "publicAccessWithoutLogin": true,
+  "routes": [
+    {
+      "path": "",
+      "status": 200
+    },
+    {
+      "path": "techniques/",
+      "status": 200
+    },
+    {
+      "path": "platforms/",
+      "status": 200
+    },
+    {
+      "path": "tools/",
+      "status": 200
+    },
+    {
+      "path": "languages-frameworks/",
+      "status": 200
+    },
+    {
+      "path": "techniques/devops/",
+      "status": 200
+    },
+    {
+      "path": "tools/gitlab/",
+      "status": 200
+    },
+    {
+      "path": "tools/github-copilot/",
+      "status": 200
+    },
+    {
+      "path": "languages-frameworks/typescript/",
+      "status": 200
+    },
+    {
+      "path": "languages-frameworks/figma/",
+      "status": 200
+    },
+    {
+      "path": "languages-frameworks/opentofu/",
+      "status": 200
+    },
+    {
+      "path": "techradar/",
+      "status": 200
+    }
+  ],
+  "assetChecks": [
+    {
+      "path": "assets/index-CZNiUoUt.js",
+      "status": 200,
+      "matchesTestedBuild": true,
+      "sha256": "f35fa4e020bf75d67c39213baa1337ddac02d88eda788b2545f80c3189febc36"
+    },
+    {
+      "path": "assets/index-BwS8JdWx.css",
+      "status": 200,
+      "matchesTestedBuild": true,
+      "sha256": "be74e6f4b1855386343693df6e76c38ffca06783668137a11130b281a4a72d4c"
+    },
+    {
+      "path": "assets/7b448.svg",
+      "status": 200,
+      "matchesTestedBuild": true,
+      "sha256": "695b3e263461819a66a362fb0317d55a44f6a36c4ad0ff265e38996dcab9a0d9"
+    },
+    {
+      "path": "assets/b4102.svg",
+      "status": 200,
+      "matchesTestedBuild": true,
+      "sha256": "6014e017d1dacb995663e6e5a9e6ab636f8db45c650eaadde512675cdbfb16d3"
+    },
+    {
+      "path": "assets/c929c.svg",
+      "status": 200,
+      "matchesTestedBuild": true,
+      "sha256": "2b94b6aad09aaf66ad35d9bc443f5e02ef2f47b2b9f10b86be328b51fca7a463"
+    },
+    {
+      "path": "assets/current-techradar-logos.svg",
+      "status": 200,
+      "matchesTestedBuild": true,
+      "sha256": "83aa6e42f334bd60f5f7b73132a6e27a8cdb65de5d9cbae7b42283da68220eab"
+    }
+  ],
+  "browserInteractionCheck": "not run: administrative browser security policy could not be verified",
+  "successfulWorkflow": "https://github.com/FranziskaBecker-STS/techradar-from-figma/actions/runs/37472450597",
+  "applicationCommit": "534803d4d8d02d8c33bb6afe1385276dd597671d"
+}
