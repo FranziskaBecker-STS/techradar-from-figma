@@ -13,6 +13,13 @@
     "pagesTests": {"passed": 2, "failed": 0},
     "coverage": "HTML rendering of all existing routes at the repository base; asset and link prefixes; original SVGs; built JS/CSS references; direct route entry files"
   },
+  "firstGitHubRun": {
+    "url": "https://github.com/FranziskaBecker-STS/techradar-from-figma/actions/runs/37471865273",
+    "checksAndBuild": "passed on Ubuntu with Node.js 24; all 29 tests passed",
+    "artifactUpload": "passed; github-pages artifact also confirmed through the REST API",
+    "deployment": "failed because the deploy action's artifact service listing returned zero artifacts",
+    "followUp": "use the current official Pages actions and publish in a separate job that depends on completion of the build and upload"
+  },
   "limitations": ["Pages activation must be confirmed in repository settings; connector has no Pages-settings write tool", "administrative browser policy could not be verified before accessing github.com, so browser access was blocked", "HTML and artifact checks do not verify browser layout, clicks or keyboard interaction", "Proxima Nova A still uses a local font installation; no licensed webfont has been added"],
   "references": ["https://vite.dev/guide/static-deploy#github-pages", "https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages"]
 }
