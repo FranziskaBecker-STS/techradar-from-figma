@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "scope": "local SVG validity, native dimensions, asset callsites and logo coordinates; no browser rendering",
+  "checks": [
+    {
+      "quadrant": "platforms",
+      "originalSvgFiles": 10,
+      "interactiveLogos": 9,
+      "nativeDimensions": [
+        645,
+        669
+      ]
+    },
+    {
+      "quadrant": "tools",
+      "originalSvgFiles": 14,
+      "interactiveLogos": 13,
+      "nativeDimensions": [
+        645,
+        669
+      ]
+    },
+    {
+      "quadrant": "languages-frameworks",
+      "originalSvgFiles": 14,
+      "interactiveLogos": 13,
+      "nativeDimensions": [
+        645,
+        669
+      ]
+    }
+  ]
+}

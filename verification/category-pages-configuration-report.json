@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "scope": "route configuration, cross-links, example fixtures and retained homepage search data; no browser interactions",
+  "checks": [
+    {
+      "path": "/techniques",
+      "title": "Techniques",
+      "crossLinks": [
+        "/tools",
+        "/platforms",
+        "/languages-frameworks"
+      ],
+      "exampleCards": 18
+    },
+    {
+      "path": "/platforms",
+      "title": "Platforms",
+      "crossLinks": [
+        "/tools",
+        "/techniques",
+        "/languages-frameworks"
+      ],
+      "exampleCards": 18
+    },
+    {
+      "path": "/tools",
+      "title": "Tools",
+      "crossLinks": [
+        "/platforms",
+        "/techniques",
+        "/languages-frameworks"
+      ],
+      "exampleCards": 18
+    },
+    {
+      "path": "/languages-frameworks",
+      "title": "Languages & Frameworks",
+      "crossLinks": [
+        "/tools",
+        "/techniques",
+        "/platforms"
+      ],
+      "exampleCards": 18
+    }
+  ]
+}

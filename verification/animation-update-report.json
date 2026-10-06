@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-06",
+  "changes": [
+    "persistent gray and blue original logo layers with opacity transitions",
+    "smooth transform scaling to the 40 px active state",
+    "crossfade between connected and active original assets",
+    "stationary hover targets and reversible transitions",
+    "transitions disabled for prefers-reduced-motion"
+  ],
+  "durationMs": 300,
+  "easing": "ease-out",
+  "motionContextNode": "220:2520",
+  "canvasMotionNodesReturned": 0,
+  "buildPassed": true,
+  "hoverTimingTests": { "passed": 5, "failed": 0 },
+  "browserCheckPerformed": false,
+  "visualAnimationCheckPerformed": false,
+  "blockingReason": "Existing browser restriction: admin-enforced policy cannot be verified for localhost. No bypass attempted.",
+  "pendingChecks": [
+    "visual interpolation of blue background and active logo growth",
+    "crossfade while switching connected logos and leaving the radar",
+    "reduced-motion behavior in browser"
+  ]
+}

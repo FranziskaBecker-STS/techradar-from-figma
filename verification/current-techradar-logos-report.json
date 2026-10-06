@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-06",
+  "sourcePage": "https://techradar.syzygy-techsolutions.de/",
+  "sourceSvg": "https://techradar.syzygy-techsolutions.de/assets/sprite.svg",
+  "sourceReadSucceeded": true,
+  "localAsset": "public/assets/current-techradar-logos.svg",
+  "localAssetBytes": 28510,
+  "importedSymbols": 25,
+  "interactiveLogoCount": 33,
+  "originalPathGeometryUnchanged": true,
+  "originalInteractiveTargetsRetained": 8,
+  "duplicateDecorativeInstancesRemoved": 5,
+  "existingLogoTypesRetained": true,
+  "sourceReference": "design-reference/current-techradar-logos.json",
+  "observedData": [
+    "Original SVG symbols",
+    "Categories and ring assignments",
+    "Related topic names from seeAlso"
+  ],
+  "derivedDecisions": [
+    "Adapted positions within category quadrants and source rings to fit the Figma homepage",
+    "Tools at bottom left and Platforms at bottom right, matching the existing homepage",
+    "Related topics connect both directions between newly imported logos",
+    "Existing monochrome and blue/white hover styling uses the unchanged source SVG geometry"
+  ],
+  "availableArticleLinks": [
+    "/techniques/devops",
+    "/languages-frameworks/opentofu",
+    "/languages-frameworks/figma",
+    "/languages-frameworks/typescript",
+    "/tools/gitlab",
+    "/tools/github-copilot"
+  ],
+  "completedChecks": {
+    "productionBuildPassed": true,
+    "originalPathAndLogoGeometryTestsPassed": 5,
+    "hoverTimingTestsPassed": 5,
+    "articleTestsPassed": 5,
+    "browserScriptSyntaxPassed": true
+  },
+  "browserChecks": {
+    "executed": false,
+    "visualComparisonPerformed": false,
+    "reason": "The administrative browser security policy could not be verified on the most recent browser access attempt. The existing restriction was not bypassed.",
+    "preparedChecks": [
+      "All 25 local SVG symbols and 33 interactive targets at desktop and intermediate widths",
+      "Tooltips, blue highlights and derived related groups for every new logo",
+      "Navigation from the six available article logos",
+      "Existing hover delay and keyboard behavior",
+      "Existing mobile homepage layout"
+    ]
+  },
+  "remainingLimitations": [
+    "Static source snapshot, no live data synchronization",
+    "The example search/list catalog is not extended with every source website entry",
+    "Only the six existing article pages are linked; remaining logos show tooltips"
+  ],
+  "figmaFileChanged": false
+}

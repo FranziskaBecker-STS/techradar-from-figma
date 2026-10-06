@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-06",
+  "repository": "https://github.com/FranziskaBecker-STS/techradar-from-figma",
+  "scope": ["application code", "original runtime assets", "package lockfile", "documentation", "tests", "design and verification references"],
+  "excluded": ["synced sources", "unrelated workspace files", "node_modules", "dist", "personal configuration", "environment files"],
+  "sanitization": {
+    "temporaryFigmaDownloadUrlsRemovedFromExportCopies": true,
+    "personalAbsolutePathsRemovedFromExportCopies": true,
+    "sourceReferenceFilesUnchanged": true,
+    "applicationCodeAndRuntimeAssetsMatchSource": true
+  },
+  "checks": {
+    "freshInstall": "npm ci succeeded",
+    "productionBuild": "npm run build succeeded",
+    "automatedTests": {"command": "npm test", "passed": 27, "failed": 0},
+    "browserScriptSyntax": "node --check scripts/browser-check.mjs succeeded",
+    "browserInteractions": "not executed: the administrative browser security policy could not be verified for localhost; existing screenshots do not verify the latest changes"
+  }
+}

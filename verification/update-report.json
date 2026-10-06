@@ -1,0 +1,10 @@
+{
+  "changes": ["viewport-height hero", "top breadcrumbs and bottom-aligned detail artwork", "blue arrow-link hover without underline", "original radar hover assets and connected groups", "300 ms dwell and 800 ms leave delay"],
+  "buildPassed": true,
+  "hoverTimingTestsPassed": 5,
+  "browserCheckPerformed": false,
+  "visualComparisonPerformedForCurrentCode": false,
+  "blockingReason": "Browser security check unavailable: admin-enforced policy could not be verified for http://127.0.0.1:5173. No workaround attempted.",
+  "previousBrowserEvidence": "browser-report.json and older screenshots refer to the implementation before these changes",
+  "pending": ["visual checks at 1440 × 902, 900 × 1000, 393 × 852 and shorter viewport heights", "live pointer switching and link color checks in browser", "complete domain-approved relationship dataset"]
+}

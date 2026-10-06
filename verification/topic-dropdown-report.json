@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-06",
+  "scope": "Homepage topic dropdown; existing topic filtering and URL state retained",
+  "figma": {
+    "fileKey": "4rMKbhNsesNBVLsGQveSlk",
+    "componentSet": "92:864",
+    "closedRightVariant": "92:863",
+    "openRightVariant": "92:865",
+    "contextsAndScreenshotsRead": true,
+    "screenshotReference": "../design-reference/92-864-topic-dropdown.png",
+    "contextReference": "../design-reference/92-864-topic-dropdown-review.txt",
+    "fileChanged": false
+  },
+  "observedDesign": {
+    "triggerHeightPx": 50,
+    "defaultBorderPx": 1.5,
+    "borderColor": "#000000",
+    "borderRadiusPx": 4,
+    "textPx": [20, 30],
+    "menuWidthPx": 254,
+    "menuAlignment": "right edge of trigger",
+    "menuTriggerOverlapPx": 3,
+    "menuVerticalPaddingPx": 4,
+    "optionPaddingPx": 10,
+    "shadow": "0 4px 12px rgba(0,0,0,0.1)",
+    "selectedBackground": "#F2F2F2",
+    "selectedTextPx": [16, 24],
+    "selectedWeight": 600,
+    "standaloneLabelPx": [16, 24],
+    "homepageInstanceLabelPx": [20, 30],
+    "homepageLabelSource": "287:2561;112:3658 in previously read 287:2479"
+  },
+  "originalAssets": {
+    "closedArrow": "/assets/topic-arrow-down.svg",
+    "openArrow": "/assets/topic-arrow-up.svg",
+    "nativeSvgSizePx": [12.28, 7.20073],
+    "pathsUnmodified": true,
+    "openArrowRotationDeg": 180
+  },
+  "requestedFocus": {
+    "borderPx": 3,
+    "borderColor": "#0035EE",
+    "outerOutline": "none",
+    "paddingCompensatesBorderWidth": true
+  },
+  "implementedBehavior": [
+    "Pointer or Enter/Space opens and confirms the topic",
+    "Arrow keys, Home/End and prefix typing move the active option without applying the filter",
+    "Escape, Tab, outside pointer interaction and page scrolling dismiss the menu",
+    "Confirmation updates the existing topic URL parameter and retains unsubmitted keyword input",
+    "Accessible label, value, listbox, selected option and active descendant"
+  ],
+  "derivedDecisions": [
+    "Apply the selected Alle row appearance to any selected topic",
+    "Long selected values expand up to 254 px and truncate when space is limited; accessible name and title retain the full value",
+    "Constrain menu height to the viewport and allow list scrolling",
+    "Open upward when fewer than 240 px remain below and more space is available above",
+    "Retain the existing mobile homepage without the filter toolbar below 768 px"
+  ],
+  "completedChecks": {
+    "productionBuildPassed": true,
+    "keyboardHelperTestsPassed": 7,
+    "componentHtmlAriaAndAssetTestsPassed": 3,
+    "browserScriptSyntaxPassed": true,
+    "existingVitePreviewRunningAndHmrUpdatesReceived": true,
+    "limitation": "HTML rendering and helper tests do not verify visual layout or complete component event behavior"
+  },
+  "browserChecks": {
+    "executed": false,
+    "accessRetried": true,
+    "reason": "Browser Use could not verify the admin-enforced security policy before accessing localhost and blocked access. No workaround was used.",
+    "preparedWidths": [1440, 900],
+    "preparedChecks": [
+      "Blue 3 px focus border with no outer outline and unchanged bounding box",
+      "Right-aligned 254 px menu within viewport with correct option typography and selection color",
+      "Keyboard movement without filtering until confirmation",
+      "Pointer selection, typeahead, Escape, Tab and outside-click dismissal",
+      "Topic selection leaves unsubmitted keyword input and confirmed query state unchanged",
+      "Existing Cloud filtering and restoration of Alle"
+    ],
+    "visualComparisonOutstanding": true,
+    "fullInteractionVerificationOutstanding": true
+  }
+}

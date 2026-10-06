@@ -1,0 +1,490 @@
+{
+  "hover": {
+    "id": "304:3046",
+    "name": "Quadrant=Techniques, hover=true",
+    "type": "COMPONENT",
+    "bounds": {
+      "x": 3743,
+      "y": 7590,
+      "width": 389,
+      "height": 404
+    },
+    "render": {
+      "x": 3743,
+      "y": 7590,
+      "width": 389,
+      "height": 404
+    },
+    "width": 389,
+    "height": 404,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "opacity": 1,
+    "cornerRadius": 0
+  },
+  "normal": {
+    "id": "220:3113",
+    "name": "Quadrant=Techniques, hover=false",
+    "type": "COMPONENT",
+    "bounds": {
+      "x": 4099,
+      "y": 7947,
+      "width": 389,
+      "height": 404
+    },
+    "render": {
+      "x": 4099,
+      "y": 7947,
+      "width": 389,
+      "height": 404
+    },
+    "width": 389,
+    "height": 404,
+    "fills": [
+      {
+        "type": "SOLID",
+        "visible": false,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "color": {
+          "r": 1,
+          "g": 1,
+          "b": 1
+        },
+        "boundVariables": {}
+      }
+    ],
+    "opacity": 1,
+    "cornerRadius": 0
+  },
+  "logos": [
+    {
+      "id": "304:3130",
+      "name": "alpinejs 1",
+      "type": "FRAME",
+      "bounds": {
+        "x": 4009.0771484375,
+        "y": 7907.359375,
+        "width": 34.829551696777344,
+        "height": 34.829551696777344
+      },
+      "render": {
+        "x": 4009.0771484375,
+        "y": 7907.359375,
+        "width": 34.82958984375,
+        "height": 34.82958984375
+      },
+      "width": 34.829551696777344,
+      "height": 34.829551696777344,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "304:3134",
+      "name": "alpinejs 2",
+      "type": "FRAME",
+      "bounds": {
+        "x": 4029.974609375,
+        "y": 7680.9677734375,
+        "width": 34.829551696777344,
+        "height": 34.829551696777344
+      },
+      "render": {
+        "x": 4029.974609375,
+        "y": 7680.9677734375,
+        "width": 34.82958984375,
+        "height": 34.82958984375
+      },
+      "width": 34.829551696777344,
+      "height": 34.829551696777344,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "304:3158",
+      "name": "apachekafka 4",
+      "type": "FRAME",
+      "bounds": {
+        "x": 3962.6376953125,
+        "y": 7791.2607421875,
+        "width": 34.829551696777344,
+        "height": 34.829551696777344
+      },
+      "render": {
+        "x": 3962.6376953125,
+        "y": 7791.2607421875,
+        "width": 34.82958984375,
+        "height": 34.82958984375
+      },
+      "width": 34.829551696777344,
+      "height": 34.829551696777344,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0,
+            "g": 0,
+            "b": 0.003921568859368563
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 9999
+    },
+    {
+      "id": "304:3160",
+      "name": "Abstract 5",
+      "type": "FRAME",
+      "bounds": {
+        "x": 3827.96337890625,
+        "y": 7866.7255859375,
+        "width": 34.829551696777344,
+        "height": 34.829551696777344
+      },
+      "render": {
+        "x": 3827.96337890625,
+        "y": 7866.7255859375,
+        "width": 34.82958984375,
+        "height": 34.82958984375
+      },
+      "width": 34.829551696777344,
+      "height": 34.829551696777344,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "304:3166",
+      "name": "Abstract 6",
+      "type": "FRAME",
+      "bounds": {
+        "x": 3899.944580078125,
+        "y": 7683.2890625,
+        "width": 34.829551696777344,
+        "height": 34.829551696777344
+      },
+      "render": {
+        "x": 3899.944580078125,
+        "y": 7683.2890625,
+        "width": 34.82958984375,
+        "height": 34.82958984375
+      },
+      "width": 34.829551696777344,
+      "height": 34.829551696777344,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    }
+  ],
+  "normalLogos": [
+    {
+      "id": "266:4047",
+      "name": "alpinejs 1",
+      "type": "FRAME",
+      "bounds": {
+        "x": 4365.0771484375,
+        "y": 8264.359375,
+        "width": 34.829551696777344,
+        "height": 34.829551696777344
+      },
+      "render": {
+        "x": 4365.0771484375,
+        "y": 8264.359375,
+        "width": 34.82958984375,
+        "height": 34.829551696777344
+      },
+      "width": 34.829551696777344,
+      "height": 34.829551696777344,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "266:4051",
+      "name": "alpinejs 2",
+      "type": "FRAME",
+      "bounds": {
+        "x": 4385.974609375,
+        "y": 8037.9677734375,
+        "width": 34.829551696777344,
+        "height": 34.829551696777344
+      },
+      "render": {
+        "x": 4385.974609375,
+        "y": 8037.9677734375,
+        "width": 34.82958984375,
+        "height": 34.82958984375
+      },
+      "width": 34.829551696777344,
+      "height": 34.829551696777344,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "266:4075",
+      "name": "apachekafka 4",
+      "type": "FRAME",
+      "bounds": {
+        "x": 4318.6376953125,
+        "y": 8148.2607421875,
+        "width": 34.829551696777344,
+        "height": 34.829551696777344
+      },
+      "render": {
+        "x": 4318.6376953125,
+        "y": 8148.2607421875,
+        "width": 34.82958984375,
+        "height": 34.82958984375
+      },
+      "width": 34.829551696777344,
+      "height": 34.829551696777344,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "266:4077",
+      "name": "Abstract 5",
+      "type": "FRAME",
+      "bounds": {
+        "x": 4183.96337890625,
+        "y": 8223.7255859375,
+        "width": 34.829551696777344,
+        "height": 34.829551696777344
+      },
+      "render": {
+        "x": 4183.96337890625,
+        "y": 8223.7255859375,
+        "width": 34.82958984375,
+        "height": 34.829551696777344
+      },
+      "width": 34.829551696777344,
+      "height": 34.829551696777344,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "266:4083",
+      "name": "Abstract 6",
+      "type": "FRAME",
+      "bounds": {
+        "x": 4255.9443359375,
+        "y": 8040.2890625,
+        "width": 34.829551696777344,
+        "height": 34.829551696777344
+      },
+      "render": {
+        "x": 4255.9443359375,
+        "y": 8040.2890625,
+        "width": 34.82958984375,
+        "height": 34.82958984375
+      },
+      "width": 34.829551696777344,
+      "height": 34.829551696777344,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": false,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1,
+      "cornerRadius": 0
+    }
+  ],
+  "tooltip": [
+    {
+      "id": "304:3171",
+      "name": "Frame 129",
+      "type": "FRAME",
+      "bounds": {
+        "x": 3948,
+        "y": 7758,
+        "width": 61.8154296875,
+        "height": 32.06787109375
+      },
+      "render": {
+        "x": 3948,
+        "y": 7758,
+        "width": 61.8154296875,
+        "height": 32.06787109375
+      },
+      "width": 61.8154296875,
+      "height": 32.06787109375,
+      "fills": [],
+      "opacity": 1,
+      "cornerRadius": 0
+    },
+    {
+      "id": "304:3173",
+      "name": "AWS",
+      "type": "TEXT",
+      "bounds": {
+        "x": 3960.911376953125,
+        "y": 7765.2900390625,
+        "width": 34,
+        "height": 16
+      },
+      "render": {
+        "x": 3960.927490234375,
+        "y": 7767.4580078125,
+        "width": 33.39599609375,
+        "height": 11.02392578125
+      },
+      "width": 34,
+      "height": 16,
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {}
+        }
+      ],
+      "opacity": 1,
+      "text": "AWS",
+      "fontSize": 16,
+      "fontName": {
+        "family": "Proxima Nova A",
+        "style": "Semibold"
+      }
+    }
+  ]
+}

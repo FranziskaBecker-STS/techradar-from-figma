@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "article": "opentofu",
+      "file": "design-reference/content-screenshots/opentofu.png",
+      "sha256": "8938fbc13268d252df4cda91d123b7cb2a8b187962144001ed8789170b9c5957",
+      "matchesUserFile": true
+    },
+    {
+      "article": "figma",
+      "file": "design-reference/content-screenshots/figma.png",
+      "sha256": "e3f7189488b67d5e8b2482406dcc8af9479540e612bd81375a9eb587f41deb04",
+      "matchesUserFile": true
+    },
+    {
+      "article": "typescript",
+      "file": "design-reference/content-screenshots/typescript.png",
+      "sha256": "aa58944e80409c83f3cb6c21ec706326152b219a45359a36501cea6b224f1cea",
+      "matchesUserFile": true
+    },
+    {
+      "article": "github-copilot",
+      "file": "design-reference/content-screenshots/github-copilot.png",
+      "sha256": "079477ffb95cec74d0aa616fc2f42bd581952b8a814334de2c4f816bfa793a24",
+      "matchesUserFile": true
+    },
+    {
+      "article": "gitlab",
+      "file": "design-reference/content-screenshots/gitlab.png",
+      "sha256": "ccb83090c227d14204c8f7284db5c10af7d5fd8f74702ac74f46dfa1990d1841",
+      "matchesUserFile": true
+    }
+  ]
+}

@@ -1,0 +1,439 @@
+const assetPathPrefix = "[temporary-figma-download-url-removed]";
+const imgBildschirmfoto20260925Um0856511 = `${assetPathPrefix}/eb7c8.png`;
+const imgGroup = `${assetPathPrefix}/c929c.svg`;
+const imgSyzygyStrich1 = `${assetPathPrefix}/2d579.svg`;
+const imgX5FX5FX5FExport = `${assetPathPrefix}/7b448.svg`;
+const imgGroup1 = `${assetPathPrefix}/88924.svg`;
+const imgVector2 = `${assetPathPrefix}/83756.svg`;
+const imgEllipse1 = `${assetPathPrefix}/7b901.svg`;
+const imgEllipse2 = `${assetPathPrefix}/aa511.svg`;
+const imgVector6 = `${assetPathPrefix}/8f4fd.svg`;
+const imgEllipse3 = `${assetPathPrefix}/3eb15.svg`;
+const imgEllipse4 = `${assetPathPrefix}/4713c.svg`;
+const imgEllipse5 = `${assetPathPrefix}/82cea.svg`;
+const imgEllipse6 = `${assetPathPrefix}/1ca6e.svg`;
+const imgEllipse7 = `${assetPathPrefix}/ff0a5.svg`;
+const imgEllipse8 = `${assetPathPrefix}/d3cef.svg`;
+const imgEllipse9 = `${assetPathPrefix}/1072d.svg`;
+const imgVector5 = `${assetPathPrefix}/d402d.svg`;
+const imgAbstract4 = `${assetPathPrefix}/ff2e6.svg`;
+const imgGroup2 = `${assetPathPrefix}/02e49.svg`;
+const imgAdyen4 = `${assetPathPrefix}/555a9.svg`;
+const imgVector = `${assetPathPrefix}/5c0fe.svg`;
+const imgVector1 = `${assetPathPrefix}/4695a.svg`;
+const imgVector3 = `${assetPathPrefix}/77c72.svg`;
+const imgVector4 = `${assetPathPrefix}/ab7bc.svg`;
+const imgVector7 = `${assetPathPrefix}/0375d.svg`;
+const imgVector8 = `${assetPathPrefix}/4b1b1.svg`;
+const imgVector9 = `${assetPathPrefix}/d877a.svg`;
+const imgVector10 = `${assetPathPrefix}/0b4e0.svg`;
+const imgGroup3 = `${assetPathPrefix}/a341d.svg`;
+const imgGroup4 = `${assetPathPrefix}/0058e.svg`;
+const imgGroup5 = `${assetPathPrefix}/9b78c.svg`;
+const imgAmazonaurora4 = `${assetPathPrefix}/eaddd.svg`;
+const imgAmazonrekognition3 = `${assetPathPrefix}/2cfa0.svg`;
+const imgAmazonrekognition4 = `${assetPathPrefix}/62bb1.svg`;
+const imgAngular2 = `${assetPathPrefix}/5ddf9.svg`;
+const imgAnsible1 = `${assetPathPrefix}/3d5c3.svg`;
+const imgApachekafka3 = `${assetPathPrefix}/d3a0d.svg`;
+const imgApachekafka4 = `${assetPathPrefix}/8f018.svg`;
+const imgAbstract5 = `${assetPathPrefix}/55825.svg`;
+const imgApiGateway1 = `${assetPathPrefix}/f75e9.svg`;
+const imgApigee2 = `${assetPathPrefix}/b67df.svg`;
+const imgSyzSimpleIconInformationCircle1 = `${assetPathPrefix}/3cde7.svg`;
+const imgSyzSimpleIconInformationCircle2 = `${assetPathPrefix}/95924.svg`;
+const imgSyzSimpleIconInformationCircle3 = `${assetPathPrefix}/f358f.svg`;
+const imgSyzSimpleIconInformationCircle4 = `${assetPathPrefix}/d41f2.svg`;
+
+export default function DesktopHomepageRadarView() {
+  return (
+    <div className="bg-[var(--color\/milky-way-white,white)] content-stretch flex flex-col items-center relative size-full" data-node-id="287:2479" data-name="Desktop Homepage - Radar view">
+      <div className="bg-[var(--color\/techsolutions-blue,#0035ee)] content-stretch flex flex-col gap-[8px] h-[902px] items-start overflow-clip pb-[48px] pl-[220px] pt-[34px] relative shrink-0 w-full" data-node-id="287:2480">
+        <div className="content-stretch flex flex-col isolate items-start relative shrink-0 w-[1000px]" data-node-id="287:2481">
+          <div className="content-stretch flex flex-col items-center pb-[100px] relative shrink-0 w-full z-[1]" data-node-id="287:2482">
+            <div className="h-[64.974px] overflow-clip relative shrink-0 w-[219px]" data-node-id="287:2483" data-name="syzygy-logo-weiss 1">
+              <div className="absolute inset-[1.28%_0.52%_1.37%_0.47%]" data-node-id="287:2484" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex h-[32px] items-center pb-[16px] relative shrink-0 w-[988px]" data-node-id="287:2493" />
+        <div className="content-stretch flex flex-col gap-[16px] h-[542px] items-start justify-end relative shrink-0 w-[629px]" data-node-id="287:2495">
+          <div className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[0] min-w-full not-italic relative shrink-0 text-[0px] text-[color:var(--color\/milky-way-white,white)] w-[min-content]" data-node-id="287:2496">
+            <p className="leading-[var(--typography-h1-semibold-line-height,66px)] mb-0 text-[60px]">Technologie komprimiert:</p>
+            <p className="font-['Proxima_Nova_A:Regular'] leading-[66px] text-[60px]">Updates, Trends, Entwicklungen</p>
+          </div>
+          <div className="relative shrink-0 size-[40px]" data-node-id="287:3028" data-name="syzygy-strich 1">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSyzygyStrich1} />
+          </div>
+        </div>
+        <div className="absolute left-[818.99px] overflow-clip size-[780.528px] top-[109px]" data-node-id="287:2779" data-name="_techsolutions-teaser-radar-square-xl-1 1">
+          <div className="absolute inset-[7.91%_7.87%_7.89%_7.89%]" data-node-id="287:2806" data-name="_x5F__x5F__x5F__EXPORT">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgX5FX5FX5FExport} />
+          </div>
+        </div>
+        <div className="-translate-x-1/2 absolute h-[48.12px] left-1/2 top-[818.75px] w-[33.937px]" data-node-id="287:2823" data-name="Bildschirmfoto 2026-09-25 um 08.56.51 1">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="" className="absolute h-[203.66%] left-[-70.72%] max-w-none top-[-58.39%] w-[268.14%]" src={imgBildschirmfoto20260925Um0856511} />
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pt-[80px] relative shrink-0 w-[1000px]" data-node-id="287:2498">
+        <div className="content-stretch flex flex-col gap-[16px] items-start pb-[80px] relative shrink-0" data-node-id="287:2557">
+          <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-h2-line-height,55px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-h2-font-size,48px)] w-[1000px]" data-node-id="287:2558">
+            Unser TechRadar
+          </p>
+          <p className="[word-break:break-word] font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-large-regular-line-height,36px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-body-large-regular-font-size,24px)] w-[765.679px]" data-node-id="287:2559">
+            Das TechRadar ist ein strategisches Tool, mit dem wir Technologien und Trends nach Relevanz und Reifegrad bewerten und daraus Handlungsempfehlungen für uns und unsere Kunden ableiten.
+          </p>
+          <a className="content-stretch cursor-pointer flex gap-[4px] h-[24px] items-center relative shrink-0 w-full" data-node-id="287:2560">
+            <div className="overflow-clip relative shrink-0 size-[24px]" data-node-id="I287:2560;13:29" data-name="arrow 1">
+              <div className="absolute bottom-1/4 left-[12.5%] right-[14.85%] top-[27.91%]" data-node-id="I287:2560;13:30" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-flagline-font-size,16px)] text-left whitespace-nowrap" data-node-id="I287:2560;13:33">
+              Weitere Details zum Techradar
+            </p>
+          </a>
+        </div>
+        <div className="content-stretch flex items-start justify-between pb-[60px] relative shrink-0 w-[1000px]" data-node-id="287:2561">
+          <a className="content-stretch cursor-pointer flex items-end relative shrink-0 w-[475px]" data-node-id="I287:2561;77:582" data-name="Suche">
+            <div className="content-stretch flex flex-[1_0_0] flex-col gap-[10px] items-start min-w-px relative" data-node-id="I287:2561;77:583">
+              <div className="content-stretch flex flex-col items-start relative shrink-0" data-node-id="I287:2561;77:584">
+                <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-body-semibold-line-height,30px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-body-regular-font-size,20px)] text-left w-[276.569px]" data-node-id="I287:2561;77:585">
+                  Schlagwortsuche
+                </p>
+              </div>
+              <div className="border-[1.5px] border-[var(--color\/not-quite-black,#1d1d1d)] border-solid content-stretch flex items-center justify-center p-[10px] relative rounded-[4px] shrink-0 w-full" data-node-id="I287:2561;77:586">
+                <p className="[word-break:break-word] flex-[1_0_0] font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-regular-line-height,30px)] min-w-px not-italic relative text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-body-regular-font-size,20px)] text-left" data-node-id="I287:2561;77:587">{` `}</p>
+              </div>
+            </div>
+          </a>
+          <div className="content-stretch flex gap-[20px] items-center justify-end relative shrink-0 w-[360.28px]" data-node-id="I287:2561;77:698">
+            <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0 w-[190px]" data-node-id="I287:2561;77:692">
+              <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-body-semibold-line-height,30px)] min-w-full not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-body-regular-font-size,20px)] w-[min-content]" data-node-id="I287:2561;77:693">
+                Ansicht
+              </p>
+              <div className="bg-[var(--color\/milky-way-white,white)] border-[1.5px] border-[var(--color\/not-quite-black,#1d1d1d)] border-solid content-stretch flex gap-[22px] items-center pr-[27px] relative rounded-[183px] shrink-0" data-node-id="I287:2561;77:707">
+                <div className="bg-[var(--color\/not-quite-black,#1d1d1d)] content-stretch flex items-center justify-center px-[27px] py-[8px] relative rounded-[99999px] shrink-0" data-node-id="I287:2561;77:708">
+                  <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-body-semibold-line-height,30px)] not-italic relative shrink-0 text-[color:var(--color\/milky-way-white,white)] text-[length:var(--typography-body-regular-font-size,20px)] text-center whitespace-nowrap" data-node-id="I287:2561;77:709">
+                    Radar
+                  </p>
+                </div>
+                <a className="[word-break:break-word] block cursor-pointer font-['Proxima_Nova_A:Regular'] leading-[0] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-body-regular-font-size,20px)] text-center whitespace-nowrap" data-node-id="I287:2561;77:710">
+                  <p className="leading-[var(--typography-body-regular-line-height,30px)]">List</p>
+                </a>
+              </div>
+            </div>
+            <button className="content-stretch cursor-pointer flex flex-col items-end relative shrink-0" data-node-id="I287:2561;112:3658" data-name="Thema-Dropdown">
+              <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0" data-node-id="I287:2561;112:3658;92:857">
+                <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,30px)] min-w-full not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-flagline-font-size,20px)] text-left w-[min-content]" data-node-id="I287:2561;112:3658;92:858">
+                  Thema
+                </p>
+                <div className="bg-[var(--color\/milky-way-white,white)] border-[1.5px] border-[var(--color\/not-quite-black,#1d1d1d)] border-solid content-stretch flex gap-[20px] items-center justify-center p-[10px] relative rounded-[4px] shrink-0" data-node-id="I287:2561;112:3658;92:859">
+                  <p className="[word-break:break-word] font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-regular-line-height,30px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-body-regular-font-size,20px)] text-left whitespace-nowrap" data-node-id="I287:2561;112:3658;92:860">
+                    Alle
+                  </p>
+                  <div className="h-[5.39px] relative shrink-0 w-[10.78px]" data-node-id="I287:2561;112:3658;92:861">
+                    <div className="absolute inset-[-13.91%_-6.96%_-19.68%_-6.96%]">
+                      <img alt="" className="block max-w-none size-full" src={imgVector2} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div className="content-stretch flex h-[753px] items-start relative shrink-0 w-full" data-node-id="287:2562">
+          <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[234px]" data-node-id="287:2563">
+            <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-h4-line-height,41px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-h4-font-size,34px)] w-[227.039px]" data-node-id="287:2564">
+              Techniques
+            </p>
+            <p className="[word-break:break-word] font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-regular-line-height,30px)] min-w-full not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-body-regular-font-size,20px)] w-[min-content]" data-node-id="287:2565">
+              Arbeitsweisen, Methoden und Best Practices.
+            </p>
+            <a className="content-stretch cursor-pointer flex gap-[4px] h-[24px] items-center relative shrink-0 w-full" data-node-id="287:2566">
+              <div className="overflow-clip relative shrink-0 size-[24px]" data-node-id="I287:2566;13:29" data-name="arrow 1">
+                <div className="absolute bottom-1/4 left-[12.5%] right-[14.85%] top-[27.91%]" data-node-id="I287:2566;13:30" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-flagline-font-size,16px)] text-left whitespace-nowrap" data-node-id="I287:2566;13:33">
+                Alle ansehen
+              </p>
+            </a>
+          </div>
+          <div className="absolute content-stretch flex flex-col gap-[8px] items-start left-0 top-[567.1px] w-[197px]" data-node-id="287:2567">
+            <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-h4-line-height,41px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-h4-font-size,34px)] w-[231.744px]" data-node-id="287:2568">
+              Tools
+            </p>
+            <p className="[word-break:break-word] font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-regular-line-height,30px)] min-w-full not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-body-regular-font-size,20px)] w-[min-content]" data-node-id="287:2569">
+              Konkrete Tools mit denen wir arbeiiten.
+            </p>
+            <a className="content-stretch cursor-pointer flex gap-[4px] items-center relative shrink-0 w-full" data-node-id="287:2570">
+              <div className="overflow-clip relative shrink-0 size-[24px]" data-node-id="I287:2570;13:29" data-name="arrow 1">
+                <div className="absolute bottom-1/4 left-[12.5%] right-[14.85%] top-[27.91%]" data-node-id="I287:2570;13:30" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-flagline-font-size,16px)] text-left whitespace-nowrap" data-node-id="I287:2570;13:33">
+                Alle ansehen
+              </p>
+            </a>
+          </div>
+          <div className="absolute content-stretch flex flex-col gap-[8px] items-end left-[760px] top-[567.1px] w-[239px]" data-node-id="287:2571">
+            <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-h4-line-height,41px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-h4-font-size,34px)] text-right w-[281.152px]" data-node-id="287:2572">
+              Platforms
+            </p>
+            <p className="[word-break:break-word] font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-regular-line-height,30px)] min-w-full not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-body-regular-font-size,20px)] text-right w-[min-content]" data-node-id="287:2573">
+              Infrastruktur und Umgebungen, auf denen Software läuft.
+            </p>
+            <a className="content-stretch cursor-pointer flex gap-[4px] items-center relative shrink-0" data-node-id="287:2574">
+              <div className="overflow-clip relative shrink-0 size-[24px]" data-node-id="I287:2574;13:29" data-name="arrow 1">
+                <div className="absolute bottom-1/4 left-[12.5%] right-[14.85%] top-[27.91%]" data-node-id="I287:2574;13:30" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-flagline-font-size,16px)] text-left whitespace-nowrap" data-node-id="I287:2574;13:33">
+                Alle ansehen
+              </p>
+            </a>
+          </div>
+          <div className="absolute content-stretch flex flex-col gap-[8px] items-end left-[760px] top-0 w-[239px]" data-node-id="287:2575">
+            <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-h4-line-height,41px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-h4-font-size,34px)] text-right w-[277.196px]" data-node-id="287:2576">{`Languages & Frameworks`}</p>
+            <p className="[word-break:break-word] font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-regular-line-height,30px)] min-w-full not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-body-regular-font-size,20px)] text-right w-[min-content]" data-node-id="287:2577">
+              Programmiersprachen und ihre Frameworks.
+            </p>
+            <a className="content-stretch cursor-pointer flex gap-[4px] items-center relative shrink-0" data-node-id="287:2578">
+              <div className="overflow-clip relative shrink-0 size-[24px]" data-node-id="I287:2578;13:29" data-name="arrow 1">
+                <div className="absolute bottom-1/4 left-[12.5%] right-[14.85%] top-[27.91%]" data-node-id="I287:2578;13:30" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+                </div>
+              </div>
+              <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-flagline-font-size,16px)] text-left whitespace-nowrap" data-node-id="I287:2578;13:33">
+                Alle ansehen
+              </p>
+            </a>
+          </div>
+          <div className="-translate-x-1/2 absolute h-[677px] left-1/2 top-0 w-[661px]" data-node-id="287:2579" data-name="Radar-full">
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(50%+0.62px)] size-[316.571px] top-[calc(50%+7.62px)]" data-node-id="I287:2579;218:2067">
+              <div className="absolute inset-[-0.47%]">
+                <img alt="" className="block max-w-none size-full" src={imgEllipse1} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[24.986px] left-[calc(50%-100.07px)] top-[calc(50%+128.2px)] w-[29.892px]" data-node-id="I287:2579;218:2056">
+              <div className="absolute inset-[-6%_-5.02%]">
+                <img alt="" className="block max-w-none size-full" src={imgEllipse2} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute flex h-[661.42px] items-center justify-center left-[calc(50%+0.98px)] top-[calc(50%+3.5px)] w-[0.15px]" data-node-id="I287:2579;13:654">
+              <div className="flex-none rotate-90">
+                <div className="h-[0.15px] relative w-[661.42px]">
+                  <div className="absolute inset-[-1000.97%_-0.23%_-1000.95%_-0.23%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector6} />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[16.145px] left-[calc(50%+218.83px)] top-[calc(50%-72.9px)] w-[5.96px]" data-node-id="I287:2579;218:1953">
+              <div className="absolute inset-[-9.29%_-25.18%]">
+                <img alt="" className="block max-w-none size-full" src={imgEllipse3} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[243.884px] left-[calc(50%+185.6px)] top-[calc(50%+73.58px)] w-[95.42px]" data-node-id="I287:2579;218:2025">
+              <div className="absolute inset-[-0.62%_-1.57%]">
+                <img alt="" className="block max-w-none size-full" src={imgEllipse4} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[25.75px] left-[calc(50%+102.81px)] top-[calc(50%+214.69px)] w-[52.092px]" data-node-id="I287:2579;218:2014">
+              <div className="absolute inset-[-5.83%_-2.88%]">
+                <img alt="" className="block max-w-none size-full" src={imgEllipse5} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[465.378px] left-[calc(50%-12.12px)] top-[calc(50%+7.62px)] w-[439.906px]" data-node-id="I287:2579;218:1990">
+              <div className="absolute inset-[-0.32%_-0.34%]">
+                <img alt="" className="block max-w-none size-full" src={imgEllipse6} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(50%+0.62px)] size-[560.087px] top-[calc(50%+7.62px)]" data-node-id="I287:2579;218:1874">
+              <div className="absolute inset-[-0.27%]">
+                <img alt="" className="block max-w-none size-full" src={imgEllipse7} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[10.44px] left-[calc(50%-163.4px)] top-[calc(50%-219.22px)] w-[14.414px]" data-node-id="I287:2579;218:1863">
+              <div className="absolute inset-[-14.37%_-10.41%]">
+                <img alt="" className="block max-w-none size-full" src={imgEllipse8} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(50%+0.62px)] size-[654.628px] top-[calc(50%+7.62px)]" data-node-id="I287:2579;1:568">
+              <div className="absolute inset-[-0.23%]">
+                <img alt="" className="block max-w-none size-full" src={imgEllipse9} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute h-0 left-[calc(50%+0.39px)] top-1/2 w-[653.328px]" data-node-id="I287:2579;13:647">
+              <div className="absolute inset-[-1.5px_-0.23%]">
+                <img alt="" className="block max-w-none size-full" src={imgVector5} />
+              </div>
+            </div>
+            <div className="absolute inset-[2.78%_0.39%_0.53%_0.58%]" data-node-id="I287:2579;13:346">
+              <div className="absolute left-[416.19px] size-[30px] top-[145.2px]" data-node-id="I287:2579;218:750" data-name="Abstract 4">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAbstract4} />
+              </div>
+              <div className="absolute left-[476.19px] overflow-clip size-[30px] top-[220.2px]" data-node-id="I287:2579;218:772" data-name="activemq 1">
+                <div className="absolute inset-[20.99%_32.32%_24.81%_31.5%]" data-node-id="I287:2579;218:773" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
+                </div>
+              </div>
+              <div className="absolute left-[434.19px] overflow-clip size-[30px] top-[261.2px]" data-node-id="I287:2579;231:3694" data-name="activemq 2">
+                <div className="absolute inset-[20.99%_32.32%_24.81%_31.5%]" data-node-id="I287:2579;231:3695" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
+                </div>
+              </div>
+              <div className="absolute left-[412.19px] size-[30px] top-[230.2px]" data-node-id="I287:2579;218:787" data-name="adyen 4">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAdyen4} />
+              </div>
+              <div className="absolute left-[454.19px] overflow-clip size-[30px] top-[175.2px]" data-node-id="I287:2579;218:752" data-name="allurereport 3">
+                <div className="absolute contents inset-[18%]" data-node-id="I287:2579;218:771" data-name="Clip path group">
+                  <div className="absolute contents inset-[18%]" data-node-id="I287:2579;218:753" data-name="Group">
+                    <div className="absolute contents inset-[18%]" data-node-id="I287:2579;218:768" data-name="Mask group">
+                      <div className="absolute contents inset-[18%]" data-node-id="I287:2579;218:754" data-name="Group">
+                        <div className="absolute inset-[25.24%_18.06%_42.8%_60.29%] mask-position-[-12.688px_-2.173px,_-12.688px_-2.173px] mask-size-[19.2px_19.2px,_19.2px_19.2px]" data-node-id="I287:2579;218:755" style={{ maskImage: `url("${imgVector}"), url("${imgVector1}")` }} data-name="Vector">
+                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector3} />
+                        </div>
+                        <div className="absolute inset-[18%_25.27%_60.34%_42.8%] mask-position-[-7.44px_0px,_-7.44px_0px] mask-size-[19.2px_19.2px,_19.2px_19.2px]" data-node-id="I287:2579;218:756" style={{ maskImage: `url("${imgVector}"), url("${imgVector1}")` }} data-name="Vector">
+                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector4} />
+                        </div>
+                        <div className="absolute inset-[18%_42.8%_25.25%_18%] mask-position-[0px_0px,_0px_0px] mask-size-[19.2px_19.2px,_19.2px_19.2px]" data-node-id="I287:2579;218:757" style={{ maskImage: `url("${imgVector}"), url("${imgVector1}")` }} data-name="Vector">
+                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector7} />
+                        </div>
+                        <div className="absolute inset-[60.33%_42.82%_18%_25.23%] mask-position-[-2.17px_-12.699px,_-2.17px_-12.699px] mask-size-[19.2px_19.2px,_19.2px_19.2px]" data-node-id="I287:2579;218:758" style={{ maskImage: `url("${imgVector}"), url("${imgVector1}")` }} data-name="Vector">
+                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector8} />
+                        </div>
+                        <div className="absolute inset-[42.8%_18.04%_18%_42.8%] mask-position-[-7.44px_-7.44px,_-7.44px_-7.44px] mask-size-[19.2px_19.2px,_19.2px_19.2px]" data-node-id="I287:2579;218:759" style={{ maskImage: `url("${imgVector}"), url("${imgVector1}")` }} data-name="Vector">
+                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector9} />
+                        </div>
+                        <div className="absolute inset-[42.8%_18.04%_18%_67.56%] mask-position-[-14.868px_-7.44px,_-14.868px_-7.44px] mask-size-[19.2px_19.2px,_19.2px_19.2px]" data-node-id="I287:2579;218:760" style={{ maskImage: `url("${imgVector}"), url("${imgVector1}")` }} data-name="Vector">
+                          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector10} />
+                        </div>
+                        <div className="absolute contents inset-[42%_18%_42%_67.6%]" data-node-id="I287:2579;218:765" data-name="Mask group">
+                          <div className="absolute inset-[25.24%_18.06%_42.8%_60.29%] mask-position-[-12.688px_-2.173px,_-12.688px_-2.173px,_2.192px_5.027px] mask-size-[19.2px_19.2px,_19.2px_19.2px,_4.32px_4.8px]" data-node-id="I287:2579;218:761" style={{ maskImage: `url("${imgVector}"), url("${imgVector1}"), url("${imgGroup3}")` }} data-name="Group">
+                            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup4} />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute left-[228.19px] overflow-clip size-[30px] top-[259.2px]" data-node-id="I287:2579;218:789" data-name="alpinejs 1">
+                <div className="absolute inset-[18%]" data-node-id="I287:2579;218:790" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup5} />
+                </div>
+              </div>
+              <div className="absolute left-[246.19px] overflow-clip size-[30px] top-[64.2px]" data-node-id="I287:2579;218:1702" data-name="alpinejs 2">
+                <div className="absolute inset-[18%]" data-node-id="I287:2579;218:1703" data-name="Group">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup5} />
+                </div>
+              </div>
+              <div className="absolute left-[344.19px] size-[30px] top-[194.2px]" data-node-id="I287:2579;218:793" data-name="amazonaurora 4">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAmazonaurora4} />
+              </div>
+              <div className="absolute left-[381.19px] size-[30px] top-[203.2px]" data-node-id="I287:2579;218:1750" data-name="amazonaurora 5">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAmazonaurora4} />
+              </div>
+              <div className="absolute left-[344.19px] size-[30px] top-[233.2px]" data-node-id="I287:2579;218:801" data-name="amazonrekognition 3">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAmazonrekognition3} />
+              </div>
+              <div className="absolute left-[378.19px] size-[30px] top-[250.2px]" data-node-id="I287:2579;218:1726" data-name="amazonrekognition 4">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAmazonrekognition4} />
+              </div>
+              <div className="absolute left-[403.19px] size-[30px] top-[284.2px]" data-node-id="I287:2579;218:1738" data-name="amazonrekognition 5">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAmazonrekognition3} />
+              </div>
+              <div className="absolute left-[338.19px] size-[30px] top-[271.2px]" data-node-id="I287:2579;218:1780" data-name="amazonrekognition 6">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAmazonrekognition3} />
+              </div>
+              <div className="absolute left-[369.19px] size-[30px] top-[290.2px]" data-node-id="I287:2579;218:1792" data-name="amazonrekognition 7">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAmazonrekognition3} />
+              </div>
+              <div className="absolute left-[123.19px] size-[30px] top-[366.2px]" data-node-id="I287:2579;218:795" data-name="Angular 2">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAngular2} />
+              </div>
+              <div className="absolute left-[228.19px] size-[30px] top-[349.2px]" data-node-id="I287:2579;218:797" data-name="ansible 1">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAnsible1} />
+              </div>
+              <div className="absolute left-[362.19px] size-[30px] top-[397.2px]" data-node-id="I287:2579;218:799" data-name="apachekafka 3">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgApachekafka3} />
+              </div>
+              <div className="absolute left-[188.19px] size-[30px] top-[159.2px]" data-node-id="I287:2579;218:1636" data-name="apachekafka 4">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgApachekafka4} />
+              </div>
+              <div className="absolute left-[72.19px] size-[30px] top-[224.2px]" data-node-id="I287:2579;218:1648" data-name="Abstract 5">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAbstract5} />
+              </div>
+              <div className="absolute left-[408.19px] size-[30px] top-[349.2px]" data-node-id="I287:2579;218:805" data-name="api-gateway 1">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgApiGateway1} />
+              </div>
+              <div className="absolute left-[146.19px] size-[30px] top-[417.2px]" data-node-id="I287:2579;218:803" data-name="apigee 2">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgApigee2} />
+              </div>
+              <div className="absolute left-[134.19px] size-[30px] top-[66.2px]" data-node-id="I287:2579;218:1680" data-name="Abstract 6">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAbstract5} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 absolute bottom-[66.28%] left-[calc(50%+6.5px)] top-[0.3%] w-[67.996px]" data-node-id="I287:2579;13:557">
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[var(--color\/milky-way-white,white)] content-stretch flex items-center justify-center left-[calc(50%+0.26px)] px-[4px] py-[2px] rounded-[4.689px] top-[calc(50%-99.08px)]" data-node-id="I287:2579;13:558">
+                <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-flagline-font-size,16px)] whitespace-nowrap" data-node-id="I287:2579;13:559">
+                  Hold
+                </p>
+                <div className="relative shrink-0 size-[28.136px]" data-node-id="I287:2579;36:262" data-name="SYZ-simple-icon-information-circle 1">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSyzSimpleIconInformationCircle1} />
+                </div>
+              </div>
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[var(--color\/milky-way-white,white)] content-stretch flex items-center justify-center left-1/2 px-[4px] py-[2px] rounded-[4.689px] top-[calc(50%-0.39px)]" data-node-id="I287:2579;13:560">
+                <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-flagline-font-size,16px)] whitespace-nowrap" data-node-id="I287:2579;13:561">
+                  Trial
+                </p>
+                <div className="relative shrink-0 size-[28.136px]" data-node-id="I287:2579;36:272" data-name="SYZ-simple-icon-information-circle 1">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSyzSimpleIconInformationCircle2} />
+                </div>
+              </div>
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[var(--color\/milky-way-white,white)] content-stretch flex items-center justify-center left-1/2 px-[4px] py-[2px] rounded-[4.689px] top-[calc(50%+74.08px)]" data-node-id="I287:2579;13:562">
+                <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-flagline-font-size,16px)] whitespace-nowrap" data-node-id="I287:2579;13:563">
+                  Adopt
+                </p>
+                <div className="relative shrink-0 size-[28.136px]" data-node-id="I287:2579;36:277" data-name="SYZ-simple-icon-information-circle 1">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSyzSimpleIconInformationCircle3} />
+                </div>
+              </div>
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[var(--color\/milky-way-white,white)] content-stretch flex items-center justify-center left-1/2 px-[4px] py-[2px] rounded-[4.689px] top-[calc(50%-50.39px)]" data-node-id="I287:2579;13:564">
+                <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-flagline-font-size,16px)] whitespace-nowrap" data-node-id="I287:2579;13:565">
+                  Assess
+                </p>
+                <div className="relative shrink-0 size-[28.136px]" data-node-id="I287:2579;36:267" data-name="SYZ-simple-icon-information-circle 1">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSyzSimpleIconInformationCircle4} />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Headline/H1: Font(family: "Proxima Nova A", style: Semibold, size: var(--typography-h1-semibold-font-size), weight: 600, lineHeight: var(--typography-h1-semibold-line-height), letterSpacing: 0), Headline/H2: Font(family: "Proxima Nova A", style: Semibold, size: var(--typography-h2-font-size), weight: 600, lineHeight: var(--typography-h2-line-height), letterSpacing: 0), Body/default: Font(family: "Proxima Nova A", style: Regular, size: var(--typography-body-large-regular-font-size), weight: 400, lineHeight: var(--typography-body-large-regular-line-height), letterSpacing: 0), Body/link: Font(family: "Proxima Nova A", style: Semibold, size: var(--typography-flagline-font-size), weight: 600, lineHeight: var(--typography-flagline-line-height), letterSpacing: 0), Body/small bold: Font(family: "Proxima Nova A", style: Semibold, size: var(--typography-body-regular-font-size), weight: 600, lineHeight: var(--typography-body-semibold-line-height), letterSpacing: 0), Body/small: Font(family: "Proxima Nova A", style: Regular, size: var(--typography-body-regular-font-size), weight: 400, lineHeight: var(--typography-body-regular-line-height), letterSpacing: 0), Headline/H4: Font(family: "Proxima Nova A", style: Semibold, size: var(--typography-h4-font-size), weight: 600, lineHeight: var(--typography-h4-line-height), letterSpacing: 0), Body/flagline: Font(family: "Proxima Nova A", style: Semibold, size: var(--typography-flagline-font-size), weight: 600, lineHeight: var(--typography-flagline-line-height), letterSpacing: 0).
+
+Images and SVGs will be stored as constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

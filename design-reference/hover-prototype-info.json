@@ -1,0 +1,9 @@
+{
+  "fileKey": "4rMKbhNsesNBVLsGQveSlk",
+  "componentSet": "13:479",
+  "variants": ["13:247", "220:2520", "220:2875", "220:2994"],
+  "observedAWSLeaveDelayMs": 800,
+  "observedSmartAnimateDurationMs": 300,
+  "implementedNewLogoDwellMs": 300,
+  "note": "Leave delay and transition duration are read from Figma. Dwell time and reverse edges are implementation assumptions requested by the user."
+}

@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-06",
+  "scope": "Keyboard sequence on homepage and all four quadrant pages; common technology-card focus",
+  "changes": {
+    "homepageRadarLogosTabIndex": -1,
+    "quadrantHeaderLogosTabIndex": -1,
+    "pointerHoverRetained": true,
+    "existingHomepagePointerArticleLinksRetained": true,
+    "allTechnologyCardsSequentiallyFocusable": true,
+    "unavailableCards": "Focusable disabled link role; no invented href or article. Title communicates that the detail page is not yet available.",
+    "unavailableCardDecision": "Provisional recommended option while the optional question about external destinations remains unanswered",
+    "cardFocusBorderPx": 3,
+    "cardFocusColor": "#0035EE",
+    "cardFocusOutline": "none",
+    "cardPaddingCompensationPx": 9,
+    "existingDefaultBorderAndPaddingPx": [1, 11]
+  },
+  "techniquesSequenceFromBrand": [
+    "Logo",
+    "Breadcrumb: Techradar",
+    "Zu Tools",
+    "Zu Platforms",
+    "Zu Languages & Frameworks",
+    "Scroll hint: Zum Inhalt",
+    "Automated Security Testing",
+    "Subsequent cards in Adopt, Trial, Assess and Hold order"
+  ],
+  "skipLinkRetained": "The existing Zum Inhalt springen link remains an additional first focus stop before the brand.",
+  "completedChecks": {
+    "productionBuildPassed": true,
+    "componentHtmlTestsPassed": 2,
+    "componentHtmlChecks": "All four category lists expose every card as an available link or a focusable, explicitly unavailable target. Automated Security Testing is first in Techniques content.",
+    "sourceReviewed": "Header DOM sequence and negative tabIndex on both radar target types",
+    "browserScriptSyntaxPassed": true
+  },
+  "browserChecks": {
+    "executed": false,
+    "reason": "The previously reported administrative browser security check blocks access to localhost; no evidence of resolution and no workaround used.",
+    "preparedWidths": [1440, 900, 393],
+    "preparedChecks": [
+      "Tab from brand through breadcrumb, category links, scroll hint and every content card",
+      "Homepage and category radar targets have negative tabIndex",
+      "Home category links are consecutive Tab stops",
+      "Focused cards have a 3 px blue border, no outer outline and stable width/height",
+      "Unavailable cards announce their state and do not navigate on Enter"
+    ],
+    "actualTabSequenceAndVisualFocusUnverified": true
+  }
+}

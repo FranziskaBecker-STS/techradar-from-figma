@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-06",
+  "routesAdded": ["/platforms", "/tools", "/languages-frameworks"],
+  "figma": {
+    "fileKey": "4rMKbhNsesNBVLsGQveSlk",
+    "section": "195:1314",
+    "desktopFrames": {
+      "platforms": "266:4810",
+      "tools": "266:5425",
+      "languages-frameworks": "266:5924"
+    },
+    "desktopFrameSize": [1440, 2149],
+    "mcpContextsRead": true,
+    "figmaScreenshotsInspected": true,
+    "fileChanged": false,
+    "separateMobileFramesFound": false,
+    "mobileLayoutReference": "13:839"
+  },
+  "completedChecks": {
+    "productionBuildPassed": true,
+    "hoverTimingTestsPassed": 5,
+    "browserScriptSyntaxPassed": true,
+    "localSvgFilesChecked": 38,
+    "assetReport": "category-pages-asset-report.json",
+    "routeAndFixtureConfigurationPassed": true,
+    "configurationReport": "category-pages-configuration-report.json"
+  },
+  "browserChecks": {
+    "executed": false,
+    "renderedComparisonWithFigma": false,
+    "reason": "Existing administrative browser policy could not be verified and access was blocked. This restriction was not bypassed.",
+    "preparedWidths": [1440, 900, 393],
+    "preparedAdditionalViewportSizes": [[2560, 1440], [1440, 700], [900, 600], [393, 640], [320, 568]],
+    "preparedChecks": [
+      "Homepage category links and quadrant cross-links",
+      "Page headings, breadcrumb, title and example card counts",
+      "Complete proportional quadrant fit and mobile layout",
+      "Black logo hover states, tooltips, keyboard focus and Escape"
+    ]
+  },
+  "assumptionsAndOpenPoints": [
+    "Mobile layouts and intermediate widths derive from the Techniques mobile frame and shared breakpoints.",
+    "Languages & Frameworks spelling is normalized to the homepage and user wording.",
+    "The three desktop frames repeat the same 18 Techniques cards. These remain separate category-page example fixtures, while the existing homepage search data is preserved.",
+    "Technology category data, logo semantics and further technology detail pages still require specification."
+  ]
+}

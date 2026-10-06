@@ -1,0 +1,149 @@
+const assetPathPrefix = "[temporary-figma-download-url-removed]";
+const imgBildschirmfoto20260925Um0856511 = `${assetPathPrefix}/eb7c8.png`;
+const imgGroup = `${assetPathPrefix}/bf692.svg`;
+const imgFrame147 = `${assetPathPrefix}/86f52.svg`;
+const imgSyzygyStrich1 = `${assetPathPrefix}/2d579.svg`;
+const imgX5FX5FX5FExport = `${assetPathPrefix}/b4102.svg`;
+const imgGroup1 = `${assetPathPrefix}/88924.svg`;
+
+export default function MobilHomepage() {
+  return (
+    <div className="bg-[var(--color\/milky-way-white,white)] content-stretch flex flex-col items-start pb-[60px] relative size-full" data-node-id="368:1718" data-name="Mobil Homepage">
+      <div className="bg-[var(--color\/techsolutions-blue,#0035ee)] content-stretch flex flex-col h-[852px] isolate items-start justify-between pb-[30px] pt-[74px] px-[16px] relative shrink-0 w-full" data-node-id="368:1770">
+        <div className="content-stretch flex gap-[37px] items-start justify-end pb-[100px] relative shrink-0 w-full z-[3]" data-node-id="368:1771">
+          <div className="h-[64.974px] overflow-clip relative shrink-0 w-[219px]" data-node-id="368:1772" data-name="syzygy-logo-weiss 1">
+            <div className="absolute inset-[1.28%_0.52%_1.37%_0.47%]" data-node-id="368:1773" data-name="Group">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+            </div>
+          </div>
+          <div className="relative shrink-0 size-[40px]" data-node-id="368:1769">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame147} />
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 z-[2]" data-node-id="368:1848">
+          <div className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[0] not-italic relative shrink-0 text-[0px] text-[color:var(--color\/milky-way-white,white)] w-[361px]" data-node-id="368:1783">
+            <p className="leading-[var(--typography-h1-semibold-line-height,36px)] mb-0 text-[30px]">Technologie komprimiert:</p>
+            <p className="font-['Proxima_Nova_A:Regular'] leading-[66px] text-[60px]">Updates, Trends, Entwicklungen</p>
+          </div>
+          <div className="relative shrink-0 size-[40px]" data-node-id="368:1784" data-name="syzygy-strich 1">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSyzygyStrich1} />
+          </div>
+          <div className="content-stretch flex items-center justify-center relative shrink-0 w-full" data-node-id="368:2388">
+            <div className="h-[48.12px] relative shrink-0 w-[33.937px]" data-node-id="368:2389" data-name="Bildschirmfoto 2026-09-25 um 08.56.51 1">
+              <div className="absolute inset-0 overflow-hidden pointer-events-none">
+                <img alt="" className="absolute h-[203.66%] left-[-70.72%] max-w-none top-[-58.39%] w-[268.14%]" src={imgBildschirmfoto20260925Um0856511} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute left-[76px] overflow-clip size-[409px] top-[165px] z-[1]" data-node-id="368:1804" data-name="_techsolutions-teaser-radar-square-xl-1 1">
+          <div className="absolute inset-[7.91%_7.87%_7.89%_7.89%]" data-node-id="368:1831" data-name="_x5F__x5F__x5F__EXPORT">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgX5FX5FX5FExport} />
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col gap-[16px] items-start px-[16px] py-[60px] relative shrink-0 w-full" data-node-id="368:1787">
+        <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-h2-line-height,32px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-h2-font-size,26px)] w-full" data-node-id="368:1788">
+          Unser TechRadar
+        </p>
+        <p className="[word-break:break-word] font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-large-regular-line-height,28px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-body-large-regular-font-size,18px)] w-full" data-node-id="368:1789">
+          Das TechRadar ist ein strategisches Tool, mit dem wir Technologien und Trends nach Relevanz und Reifegrad bewerten und daraus Handlungsempfehlungen für uns und unsere Kunden ableiten.
+        </p>
+        <a className="content-stretch cursor-pointer flex gap-[4px] h-[24px] items-center relative shrink-0 w-full" data-node-id="368:1790">
+          <div className="overflow-clip relative shrink-0 size-[24px]" data-node-id="I368:1790;13:29" data-name="arrow 1">
+            <div className="absolute bottom-1/4 left-[12.5%] right-[14.85%] top-[27.91%]" data-node-id="I368:1790;13:30" data-name="Group">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+            </div>
+          </div>
+          <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,20px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-flagline-font-size,14px)] text-left whitespace-nowrap" data-node-id="I368:1790;13:33">
+            Weitere Details zum Techradar
+          </p>
+        </a>
+      </div>
+      <div className="content-stretch flex flex-col gap-[40px] items-start px-[16px] relative shrink-0" data-node-id="368:1802">
+        <a className="content-stretch cursor-pointer flex flex-col gap-[8px] items-start relative shrink-0" data-node-id="368:1722">
+          <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-h3-line-height,29px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-h3-font-size,23px)] text-left w-[361px]" data-node-id="368:1723">
+            Techniques
+          </p>
+          <p className="[word-break:break-word] font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-large-regular-line-height,28px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-body-large-regular-font-size,18px)] text-left w-[361px]" data-node-id="368:1724">
+            Generelle Themen rund um den Software Entwicklungsprozess, z.B. Agile Methoden, Architekturansätze etc.
+          </p>
+          <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-node-id="368:1725">
+            <div className="overflow-clip relative shrink-0 size-[24px]" data-node-id="I368:1725;13:29" data-name="arrow 1">
+              <div className="absolute bottom-1/4 left-[12.5%] right-[14.85%] top-[27.91%]" data-node-id="I368:1725;13:30" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,20px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-flagline-font-size,14px)] text-left whitespace-nowrap" data-node-id="I368:1725;13:33">
+              Zu Techniques
+            </p>
+          </div>
+        </a>
+        <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0" data-node-id="368:1726">
+          <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-h3-line-height,29px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-h3-font-size,23px)] w-[361px]" data-node-id="368:1727">{`Languages & Frameworks`}</p>
+          <p className="[word-break:break-word] font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-large-regular-line-height,28px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-body-large-regular-font-size,18px)] w-[361px]" data-node-id="368:1728">
+            Sprachen, Frameworks und Libraries, die zur Umsetzung von Anforderungen eingesetzt werden.
+          </p>
+          <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-node-id="368:1729">
+            <div className="overflow-clip relative shrink-0 size-[24px]" data-node-id="I368:1729;13:29" data-name="arrow 1">
+              <div className="absolute bottom-1/4 left-[12.5%] right-[14.85%] top-[27.91%]" data-node-id="I368:1729;13:30" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,20px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-flagline-font-size,14px)] whitespace-nowrap" data-node-id="I368:1729;13:33">{`Zu Languages & Frameworks`}</p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0" data-node-id="368:1730">
+          <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-h3-line-height,29px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-h3-font-size,23px)] w-[361px]" data-node-id="368:1731">
+            Platforms
+          </p>
+          <p className="[word-break:break-word] font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-large-regular-line-height,28px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-body-large-regular-font-size,18px)] w-[361px]" data-node-id="368:1732">
+            Umgebungen, auf oder in denen Software läuft, Services-Provider, Datenbanken oder Management Systeme.
+          </p>
+          <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-node-id="368:1733">
+            <div className="overflow-clip relative shrink-0 size-[24px]" data-node-id="I368:1733;13:29" data-name="arrow 1">
+              <div className="absolute bottom-1/4 left-[12.5%] right-[14.85%] top-[27.91%]" data-node-id="I368:1733;13:30" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,20px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-flagline-font-size,14px)] whitespace-nowrap" data-node-id="I368:1733;13:33">
+              Zu Platforms
+            </p>
+          </div>
+        </div>
+        <div className="content-stretch flex flex-col gap-[8px] items-start relative shrink-0" data-node-id="368:1734">
+          <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-h3-line-height,29px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-h3-font-size,23px)] w-[361px]" data-node-id="368:1735">
+            Tools
+          </p>
+          <p className="[word-break:break-word] font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-large-regular-line-height,28px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-body-large-regular-font-size,18px)] w-[361px]" data-node-id="368:1736">
+            Unterstützende Software, die wir zur Umsetzung von Anforderungen zur Hilfe nehmen.
+          </p>
+          <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-node-id="368:1737">
+            <div className="overflow-clip relative shrink-0 size-[24px]" data-node-id="I368:1737;13:29" data-name="arrow 1">
+              <div className="absolute bottom-1/4 left-[12.5%] right-[14.85%] top-[27.91%]" data-node-id="I368:1737;13:30" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+              </div>
+            </div>
+            <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,20px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-flagline-font-size,14px)] whitespace-nowrap" data-node-id="I368:1737;13:33">
+              Zu Tools
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Headline/H1: Font(family: "Proxima Nova A", style: Semibold, size: var(--typography-h1-semibold-font-size), weight: 600, lineHeight: var(--typography-h1-semibold-line-height), letterSpacing: 0), Headline/H2: Font(family: "Proxima Nova A", style: Semibold, size: var(--typography-h2-font-size), weight: 600, lineHeight: var(--typography-h2-line-height), letterSpacing: 0), Body/default: Font(family: "Proxima Nova A", style: Regular, size: var(--typography-body-large-regular-font-size), weight: 400, lineHeight: var(--typography-body-large-regular-line-height), letterSpacing: 0), Body/link: Font(family: "Proxima Nova A", style: Semibold, size: var(--typography-flagline-font-size), weight: 600, lineHeight: var(--typography-flagline-line-height), letterSpacing: 0), Headline/H3: Font(family: "Proxima Nova A", style: Semibold, size: var(--typography-h3-font-size), weight: 600, lineHeight: var(--typography-h3-line-height), letterSpacing: 0).
+
+Images and SVGs will be stored as constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

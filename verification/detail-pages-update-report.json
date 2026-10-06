@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-06",
+  "newRoutes": [
+    "/languages-frameworks/opentofu",
+    "/languages-frameworks/figma",
+    "/languages-frameworks/typescript",
+    "/tools/github-copilot",
+    "/tools/gitlab"
+  ],
+  "totalRoutes": 12,
+  "figmaTemplate": {
+    "desktop": "287:2098",
+    "mobile": "40:235",
+    "mcpContextsAndScreenshotsRead": true,
+    "fileChanged": false,
+    "originalAssetsReused": true
+  },
+  "contentSource": "Five user-provided screenshots of the existing Tech Radar",
+  "referenceCopiesUnchanged": true,
+  "referenceHashReport": "detail-screenshot-source-report.json",
+  "detailHeaderArtwork": {
+    "source": "User requested homepage artwork on every detail page",
+    "desktopAsset": "/assets/7b448.svg",
+    "mobileAsset": "/assets/b4102.svg",
+    "samePositionAsHomepage": true,
+    "detailQuadrantsRemoved": true,
+    "categoryQuadrantsRetainedOnDesktop": true
+  },
+  "completedChecks": {
+    "productionBuildPassed": true,
+    "articleRouteContentAndReferenceTestsPassed": 5,
+    "dropdownKeyboardTestsPassed": 5,
+    "browserScriptSyntaxPassed": true,
+    "detailComponentMarkupChecksPassed": 6,
+    "markupChecks": "Direct code rendering confirmed both homepage assets, absence of detail quadrants, and all available category articles as enabled select options. This does not verify browser clicks or visual layout."
+  },
+  "browserChecks": {
+    "executed": false,
+    "renderedComparisonWithFigma": false,
+    "reason": "The existing administrative browser security policy could not be verified and access was blocked. No workaround was used.",
+    "preparedWidths": [1440, 900, 393],
+    "preparedChecks": [
+      "All twelve routes, static detail header artwork and complete desktop category quadrant geometry",
+      "Search result and category links to all five new articles",
+      "Article headline, document title, paragraphs and related topic counts",
+      "Related article links and category breadcrumbs",
+      "Mobile dropdown navigation between available category articles and focus after navigation",
+      "TypeScript → Figma → OpenTofu → TypeScript using pointer selection and keyboard typeahead, including correct Adopt/Trial grouping"
+    ]
+  },
+  "confirmedAssignments": {
+    "source": "Explicit user confirmation on 2026-10-06",
+    "OpenTofu": { "category": "Languages & Frameworks", "ring": "Trial" },
+    "Figma": { "category": "Languages & Frameworks", "ring": "Adopt" },
+    "TypeScript": { "category": "Languages & Frameworks", "ring": "Adopt" },
+    "GitHub Copilot": { "category": "Tools", "ring": "Adopt" },
+    "GitLab": { "category": "Tools", "ring": "Adopt" }
+  },
+  "derivedDecisions": {
+    "heroTeasers": "Summarized from supplied paragraphs",
+    "searchTagsAndTopics": "Illustrative demo assignments"
+  },
+  "remainingLimitations": [
+    "Topics without supplied article content remain unavailable detail targets.",
+    "Content and radar positions are static; no live data source or dynamically added radar logos."
+  ]
+}

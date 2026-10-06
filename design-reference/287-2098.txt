@@ -1,0 +1,169 @@
+const assetPathPrefix = "[temporary-figma-download-url-removed]";
+const imgBildschirmfoto20260925Um0856511 = `${assetPathPrefix}/eb7c8.png`;
+const imgGroup = `${assetPathPrefix}/c929c.svg`;
+const imgX5FX5FX5FExport = `${assetPathPrefix}/5481e.svg`;
+const imgGroup1 = `${assetPathPrefix}/88924.svg`;
+
+export default function DesktopTechniquesDetailseite() {
+  return (
+    <div className="bg-[var(--color\/milky-way-white,white)] content-stretch flex flex-col items-center relative size-full" data-node-id="287:2098" data-name="Desktop - Techniques Detailseite">
+      <div className="bg-[var(--color\/techsolutions-blue,#0035ee)] content-stretch flex flex-col gap-[8px] h-[902px] items-start overflow-clip pb-[48px] pl-[220px] pt-[34px] relative shrink-0 w-full" data-node-id="287:2099">
+        <div className="content-stretch flex flex-col isolate items-start relative shrink-0 w-[1000px]" data-node-id="287:2100">
+          <div className="content-stretch flex flex-col items-center pb-[100px] relative shrink-0 w-full z-[1]" data-node-id="287:2101">
+            <div className="h-[64.974px] overflow-clip relative shrink-0 w-[219px]" data-node-id="287:2102" data-name="syzygy-logo-weiss 1">
+              <div className="absolute inset-[1.28%_0.52%_1.37%_0.47%]" data-node-id="287:2103" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="content-stretch flex h-[32px] items-center pb-[16px] relative shrink-0 w-[988px]" data-node-id="287:2112">
+          <a className="[word-break:break-word] block cursor-pointer flex-[1_0_0] font-['Proxima_Nova_A:Regular'] leading-[0] min-w-px not-italic relative text-[0px] text-[color:var(--color\/milky-way-white,white)]" data-node-id="287:2113">
+            <p className="text-[20px]">
+              <span className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[30px] not-italic text-white">Techradar</span>
+              <span className="leading-[var(--typography-body-regular-line-height,30px)]">{` / `}</span>
+              <span className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[30px] not-italic">Techniques</span>
+              <span className="leading-[var(--typography-body-regular-line-height,30px)]">{` / DevOps`}</span>
+            </p>
+          </a>
+        </div>
+        <div className="[word-break:break-word] content-stretch flex flex-[1_0_0] flex-col gap-[16px] items-start justify-end min-h-px not-italic pb-[80px] relative text-[color:var(--color\/milky-way-white,white)] w-[629px]" data-node-id="287:2114">
+          <p className="font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-h1-semibold-line-height,66px)] relative shrink-0 text-[length:var(--typography-h1-semibold-font-size,60px)] w-full" data-node-id="287:2115">
+            DevOps ist unser Operations-Modell in agilen Kunden-umfeldern
+          </p>
+          <p className="font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-large-regular-line-height,36px)] relative shrink-0 text-[length:var(--typography-body-large-regular-font-size,24px)] w-full" data-node-id="287:2116">
+            DevOps ist nicht mehr wegzudenken und wird seit Jahren immer wichtiger.
+          </p>
+        </div>
+        <div className="-translate-x-1/2 absolute h-[48.12px] left-1/2 top-[818.75px] w-[33.937px]" data-node-id="287:3036" data-name="Bildschirmfoto 2026-09-25 um 08.56.51 1">
+          <div className="absolute inset-0 overflow-hidden pointer-events-none">
+            <img alt="" className="absolute h-[203.66%] left-[-70.72%] max-w-none top-[-58.39%] w-[268.14%]" src={imgBildschirmfoto20260925Um0856511} />
+          </div>
+        </div>
+        <div className="absolute left-[818.99px] overflow-clip size-[780.528px] top-[109px]" data-node-id="387:2632" data-name="_techsolutions-teaser-radar-square-xl-1 1">
+          <div className="absolute inset-[7.91%_7.87%_7.89%_7.89%]" data-node-id="387:2659" data-name="_x5F__x5F__x5F__EXPORT">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgX5FX5FX5FExport} />
+          </div>
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col items-start pt-[80px] relative shrink-0 w-[1000px]" data-node-id="287:2122">
+        <div className="content-stretch flex flex-col items-start relative rounded-[4px] shrink-0 w-[800px]" data-node-id="287:2419">
+          <div className="content-stretch flex flex-col gap-[24px] items-start pb-[32px] relative shrink-0 w-full" data-node-id="287:2420">
+            <div className="content-stretch flex flex-col items-start relative shrink-0 w-full" data-node-id="287:2422">
+              <div className="[word-break:break-word] font-['Proxima_Nova_A:Regular'] leading-[0] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-body-large-regular-font-size,24px)] w-full whitespace-pre-wrap" data-node-id="287:2423">
+                <p className="leading-[var(--typography-body-large-regular-line-height,36px)] mb-0">{`Wir nutzen den Begriff "DevOps" auch zweckfremd. Je nach Perspektive beschreiben wir damit ein Betriebsmodell, technisches Gebiet, eine Rolle.`}</p>
+                <p className="leading-[var(--typography-body-large-regular-line-height,36px)] mb-0 text-[24px]">​</p>
+                <p className="leading-[var(--typography-body-large-regular-line-height,36px)] mb-0">{`DevOps ist ein sehr erfolgreiches Betriebsmodell, bei dem im Sinne von "you build it, you run it" Entwicklung und Betrieb in einem selbstverwalteten Team ganzheitlich übernommen werden. Bei unseren großen Digitalisierungsprojekten ist ein klarer Trend in diese Richtung erkennbar, da auch unsere Kunden die strikte organisatorische Trennung von Entwicklung und IT stetig aufweichen.`}</p>
+                <p className="leading-[var(--typography-body-large-regular-line-height,36px)] mb-0 text-[24px]">​</p>
+                <p className="leading-[var(--typography-body-large-regular-line-height,36px)]">DevOps als Rolle oder technische Disziplin: Während wir früher Entwickler-Teams und unsere IT hatten, ergänzen wir diese mittlerweile durch dezidierte DevOps-Spezialisten: Das sind Kollegen, die für Schnittstellenaufgaben zwischen Entwicklung und Infrastruktur Verantwortung übernehmen. Das ist vor allem alles rund um CI/CD, Security, Konfigurationsmanagement und Bereitstellung von Runtime-Umgebungen im Sinne von Infrastructure as Code.</p>
+              </div>
+            </div>
+            <div className="content-stretch flex flex-col gap-[16px] items-start pt-[24px] relative shrink-0 w-full" data-node-id="287:2424">
+              <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-h4-line-height,41px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-h4-font-size,34px)] w-full" data-node-id="287:2425">{`Siehe auch / verwandte Themen: `}</p>
+              <div className="content-start flex flex-wrap gap-[16px] items-start relative shrink-0 w-full" data-node-id="287:2426">
+                <div className="bg-[var(--color\/milky-way-white,white)] border border-[var(--color\/moon-grey\/grey03,#dbd9d6)] border-solid content-stretch flex flex-col items-start p-[12px] relative rounded-[4px] shrink-0 w-[235px]" data-node-id="287:2427">
+                  <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-node-id="287:2428">
+                    <div className="overflow-clip relative shrink-0 size-[24px]" data-node-id="I287:2428;13:29" data-name="arrow 1">
+                      <div className="absolute bottom-1/4 left-[12.5%] right-[14.85%] top-[27.91%]" data-node-id="I287:2428;13:30" data-name="Group">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+                      </div>
+                    </div>
+                    <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-flagline-font-size,16px)] whitespace-nowrap" data-node-id="I287:2428;13:33">
+                      API-Gateway
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-[var(--color\/milky-way-white,white)] border border-[var(--color\/moon-grey\/grey03,#dbd9d6)] border-solid content-stretch flex flex-col items-start p-[12px] relative rounded-[4px] shrink-0 w-[235px]" data-node-id="287:2429">
+                  <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-node-id="287:2430">
+                    <div className="overflow-clip relative shrink-0 size-[24px]" data-node-id="I287:2430;13:29" data-name="arrow 1">
+                      <div className="absolute bottom-1/4 left-[12.5%] right-[14.85%] top-[27.91%]" data-node-id="I287:2430;13:30" data-name="Group">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+                      </div>
+                    </div>
+                    <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-flagline-font-size,16px)] whitespace-nowrap" data-node-id="I287:2430;13:33">
+                      DevSecOps
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-[var(--color\/milky-way-white,white)] border border-[var(--color\/moon-grey\/grey03,#dbd9d6)] border-solid content-stretch flex flex-col items-start p-[12px] relative rounded-[4px] shrink-0 w-[235px]" data-node-id="287:2431">
+                  <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-node-id="287:2432">
+                    <div className="overflow-clip relative shrink-0 size-[24px]" data-node-id="I287:2432;13:29" data-name="arrow 1">
+                      <div className="absolute bottom-1/4 left-[12.5%] right-[14.85%] top-[27.91%]" data-node-id="I287:2432;13:30" data-name="Group">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+                      </div>
+                    </div>
+                    <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-flagline-font-size,16px)] whitespace-nowrap" data-node-id="I287:2432;13:33">
+                      Game Days
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-[var(--color\/milky-way-white,white)] border border-[var(--color\/moon-grey\/grey03,#dbd9d6)] border-solid content-stretch flex flex-col items-start p-[12px] relative rounded-[4px] shrink-0 w-[235px]" data-node-id="287:2433">
+                  <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-node-id="287:2434">
+                    <div className="overflow-clip relative shrink-0 size-[24px]" data-node-id="I287:2434;13:29" data-name="arrow 1">
+                      <div className="absolute bottom-1/4 left-[12.5%] right-[14.85%] top-[27.91%]" data-node-id="I287:2434;13:30" data-name="Group">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+                      </div>
+                    </div>
+                    <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-flagline-font-size,16px)] whitespace-nowrap" data-node-id="I287:2434;13:33">
+                      Lambda Step Functions
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-[var(--color\/milky-way-white,white)] border border-[var(--color\/moon-grey\/grey03,#dbd9d6)] border-solid content-stretch flex flex-col items-start p-[12px] relative rounded-[4px] shrink-0 w-[235px]" data-node-id="287:2435">
+                  <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-node-id="287:2436">
+                    <div className="overflow-clip relative shrink-0 size-[24px]" data-node-id="I287:2436;13:29" data-name="arrow 1">
+                      <div className="absolute bottom-1/4 left-[12.5%] right-[14.85%] top-[27.91%]" data-node-id="I287:2436;13:30" data-name="Group">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+                      </div>
+                    </div>
+                    <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-flagline-font-size,16px)] whitespace-nowrap" data-node-id="I287:2436;13:33">
+                      Microfrontend
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-[var(--color\/milky-way-white,white)] border border-[var(--color\/moon-grey\/grey03,#dbd9d6)] border-solid content-stretch flex flex-col items-start p-[12px] relative rounded-[4px] shrink-0 w-[235px]" data-node-id="287:2437">
+                  <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-node-id="287:2438">
+                    <div className="overflow-clip relative shrink-0 size-[24px]" data-node-id="I287:2438;13:29" data-name="arrow 1">
+                      <div className="absolute bottom-1/4 left-[12.5%] right-[14.85%] top-[27.91%]" data-node-id="I287:2438;13:30" data-name="Group">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+                      </div>
+                    </div>
+                    <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-flagline-font-size,16px)] whitespace-nowrap" data-node-id="I287:2438;13:33">
+                      Monorepo
+                    </p>
+                  </div>
+                </div>
+                <div className="bg-[var(--color\/milky-way-white,white)] border border-[var(--color\/moon-grey\/grey03,#dbd9d6)] border-solid content-stretch flex flex-col items-start p-[12px] relative rounded-[4px] shrink-0 w-[235px]" data-node-id="287:2439">
+                  <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-node-id="287:2440">
+                    <div className="overflow-clip relative shrink-0 size-[24px]" data-node-id="I287:2440;13:29" data-name="arrow 1">
+                      <div className="absolute bottom-1/4 left-[12.5%] right-[14.85%] top-[27.91%]" data-node-id="I287:2440;13:30" data-name="Group">
+                        <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup1} />
+                      </div>
+                    </div>
+                    <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-flagline-font-size,16px)] whitespace-nowrap" data-node-id="I287:2440;13:33">
+                      Shift Left
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Body/small: Font(family: "Proxima Nova A", style: Regular, size: var(--typography-body-regular-font-size), weight: 400, lineHeight: var(--typography-body-regular-line-height), letterSpacing: 0), Headline/H1: Font(family: "Proxima Nova A", style: Semibold, size: var(--typography-h1-semibold-font-size), weight: 600, lineHeight: var(--typography-h1-semibold-line-height), letterSpacing: 0), Body/default: Font(family: "Proxima Nova A", style: Regular, size: var(--typography-body-large-regular-font-size), weight: 400, lineHeight: var(--typography-body-large-regular-line-height), letterSpacing: 0), Headline/H4: Font(family: "Proxima Nova A", style: Semibold, size: var(--typography-h4-font-size), weight: 600, lineHeight: var(--typography-h4-line-height), letterSpacing: 0), Body/link: Font(family: "Proxima Nova A", style: Semibold, size: var(--typography-flagline-font-size), weight: 600, lineHeight: var(--typography-flagline-line-height), letterSpacing: 0).
+
+Images and SVGs will be stored as constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

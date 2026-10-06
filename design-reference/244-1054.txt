@@ -1,0 +1,198 @@
+const assetPathPrefix = "[temporary-figma-download-url-removed]";
+const imgLogoCmykSts1 = `${assetPathPrefix}/46d60.png`;
+const imgEllipse1 = `${assetPathPrefix}/7b901.svg`;
+const imgEllipse2 = `${assetPathPrefix}/aa511.svg`;
+const imgVector6 = `${assetPathPrefix}/95b42.svg`;
+const imgEllipse3 = `${assetPathPrefix}/3eb15.svg`;
+const imgEllipse4 = `${assetPathPrefix}/4713c.svg`;
+const imgEllipse5 = `${assetPathPrefix}/82cea.svg`;
+const imgEllipse6 = `${assetPathPrefix}/1ca6e.svg`;
+const imgEllipse7 = `${assetPathPrefix}/ff0a5.svg`;
+const imgEllipse8 = `${assetPathPrefix}/d3cef.svg`;
+const imgEllipse9 = `${assetPathPrefix}/1072d.svg`;
+const imgVector5 = `${assetPathPrefix}/d402d.svg`;
+
+export default function DesktopTechradarDetails() {
+  return (
+    <div className="bg-[var(--color\/milky-way-white,white)] content-stretch flex flex-col gap-[10px] items-center pb-[32px] pt-[34px] relative size-full" data-node-id="244:1054" data-name="Desktop Techradar details">
+      <div className="content-stretch flex flex-col h-[163.909px] items-center pb-[100px] relative shrink-0 w-full" data-node-id="266:3937">
+        <div className="h-[63.909px] relative shrink-0 w-[219px]" data-node-id="266:3938" data-name="Logo_CMYK_STS 1">
+          <img alt="" className="absolute inset-0 max-w-none object-cover pointer-events-none size-full" src={imgLogoCmykSts1} />
+        </div>
+      </div>
+      <div className="content-stretch flex flex-col h-[2530px] isolate items-start relative shrink-0 w-[1000px]" data-node-id="244:1056">
+        <div className="content-stretch flex h-[32px] items-center pb-[16px] relative shrink-0 w-[988px] z-[2]" data-node-id="244:1057">
+          <a className="[word-break:break-word] block cursor-pointer flex-[1_0_0] font-['Proxima_Nova_A:Regular'] leading-[0] min-w-px not-italic relative text-[0px] text-[color:var(--color\/not-quite-black,#1d1d1d)]" data-node-id="266:3934">
+            <p className="text-[20px]">
+              <span className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[30px] not-italic text-[#0035ee]">Techradar</span>
+              <span className="leading-[var(--typography-body-regular-line-height,30px)]">{` / Techniques`}</span>
+            </p>
+          </a>
+        </div>
+        <div className="content-stretch flex flex-col items-start relative shrink-0 w-[800px] z-[1]" data-node-id="244:1059">
+          <div className="content-stretch flex flex-col items-start justify-center relative shrink-0 w-full" data-node-id="244:1060">
+            <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-start not-italic pb-[32px] relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] w-full" data-node-id="244:1358">
+              <p className="font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-h1-semibold-line-height,66px)] relative shrink-0 text-[length:var(--typography-h1-semibold-font-size,60px)] whitespace-nowrap" data-node-id="244:1061">
+                Das Techradar
+              </p>
+              <div className="font-['Proxima_Nova_A:Regular'] leading-[0] min-w-full relative shrink-0 text-[length:var(--typography-body-large-regular-font-size,24px)] w-[min-content] whitespace-pre-wrap" data-node-id="244:1327">
+                <p className="leading-[var(--typography-body-large-regular-line-height,36px)] mb-0">Im Rahmen von Technology- und Trend-Scouting beschäftigen wir uns bei SYZYGY Techsolutions täglich mit der Frage, welche Technologien für uns und unsere Kunden aktuell richtig sind und in Zukunft relevant sein werden. Wir identifizieren, selektieren und bewerten Themen nach Relevanz und Reifegrad für unsere Anwendungsfelder, um daran unsere Strategie auszurichten. Unser zentrales Tool hierfür ist das TechRadar. Es stellt Datenbasis, Kollaborations-Plattform und Visualisierung bereit.</p>
+                <p className="leading-[var(--typography-body-large-regular-line-height,36px)] mb-0 text-[24px]">​</p>
+                <p className="leading-[var(--typography-body-large-regular-line-height,36px)] mb-0">Das Radar verschafft einen komprimierten Überblick über aktuelle und aufkommende Technologien. Durch die kontinuierliche Betrachtung und Bewertung von Trends ist es für uns innovationstreibend und drückt unsere Haltung zum jeweiligen Thema aus. Es adressiert Kunden, Partner, Mitarbeiter und Bewerber.</p>
+                <p className="leading-[var(--typography-body-large-regular-line-height,36px)] mb-0 text-[24px]">​</p>
+                <p className="leading-[var(--typography-body-large-regular-line-height,36px)]">Das TechRadar reflektiert immer die Momentaufnahme unseres Technologie-Universums - es ist nie vollständig und stets subjektiv. Es stößt - zuweilen heiße - Diskussionen an und entwickelt sich weiter. Diskutieren Sie gerne mit:technology@syzygy.de</p>
+              </div>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-start not-italic pb-[32px] relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] w-full" data-node-id="244:1359">
+              <p className="font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-h2-line-height,55px)] relative shrink-0 text-[length:var(--typography-h2-font-size,48px)] w-[654px]" data-node-id="244:1328">
+                Quadranten
+              </p>
+              <p className="font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-large-regular-line-height,36px)] min-w-full relative shrink-0 text-[length:var(--typography-body-large-regular-font-size,24px)] w-[min-content]" data-node-id="244:1329">{`Das TechRadar ist eine Liste von Technologien, die in "Quadranten" eingeteilt und in "Ringen" bewertet werden.`}</p>
+            </div>
+            <div className="content-stretch flex flex-col gap-[24px] items-start pb-[32px] relative shrink-0 w-full" data-node-id="244:1360">
+              <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-h3-line-height,48px)] not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] text-[length:var(--typography-h3-font-size,40px)] w-[654px]" data-node-id="244:1330">
+                Ringe
+              </p>
+              <div className="h-[358px] overflow-clip relative shrink-0 w-[339px]" data-node-id="244:1936" data-name="Radar-image">
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(50%-160.38px)] size-[316.571px] top-[calc(50%+167.12px)]" data-node-id="I244:1936;244:1501">
+                  <div className="absolute inset-[-0.47%]">
+                    <img alt="" className="block max-w-none size-full" src={imgEllipse1} />
+                  </div>
+                </div>
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[24.986px] left-[calc(50%-261.07px)] top-[calc(50%+287.7px)] w-[29.892px]" data-node-id="I244:1936;244:1502">
+                  <div className="absolute inset-[-6%_-5.02%]">
+                    <img alt="" className="block max-w-none size-full" src={imgEllipse2} />
+                  </div>
+                </div>
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute flex h-[653.178px] items-center justify-center left-[calc(50%-159.04px)] top-[calc(50%+167.12px)] w-[0.15px]" data-node-id="I244:1936;244:1503">
+                  <div className="flex-none rotate-90">
+                    <div className="h-[0.15px] relative w-[653.178px]">
+                      <div className="absolute inset-[-1000.82%_-0.23%_-1000.8%_-0.23%]">
+                        <img alt="" className="block max-w-none size-full" src={imgVector6} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="absolute inset-[71.93%_32.06%_23.56%_66.18%]" data-node-id="I244:1936;244:1504">
+                  <div className="absolute inset-[-9.29%_-25.18%]">
+                    <img alt="" className="block max-w-none size-full" src={imgEllipse3} />
+                  </div>
+                </div>
+                <div className="absolute inset-[81.05%_28.67%_-49.17%_43.18%]" data-node-id="I244:1936;244:1505">
+                  <div className="absolute inset-[-0.62%_-1.57%]">
+                    <img alt="" className="block max-w-none size-full" src={imgEllipse4} />
+                  </div>
+                </div>
+                <div className="absolute inset-[150.93%_59.48%_-58.12%_25.15%]" data-node-id="I244:1936;244:1506">
+                  <div className="absolute inset-[-5.83%_-2.88%]">
+                    <img alt="" className="block max-w-none size-full" src={imgEllipse5} />
+                  </div>
+                </div>
+                <div className="absolute inset-[31.68%_36.18%_-61.68%_-65.95%]" data-node-id="I244:1936;244:1507">
+                  <div className="absolute inset-[-0.32%_-0.34%]">
+                    <img alt="" className="block max-w-none size-full" src={imgEllipse6} />
+                  </div>
+                </div>
+                <div className="absolute inset-[18.46%_14.7%_-74.91%_-79.92%]" data-node-id="I244:1936;244:1509">
+                  <div className="absolute inset-[-0.27%]">
+                    <img alt="" className="block max-w-none size-full" src={imgEllipse7} />
+                  </div>
+                </div>
+                <div className="absolute inset-[31.86%_143.57%_65.22%_-47.82%]" data-node-id="I244:1936;244:1510">
+                  <div className="absolute inset-[-14.37%_-10.41%]">
+                    <img alt="" className="block max-w-none size-full" src={imgEllipse8} />
+                  </div>
+                </div>
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(50%-160.38px)] size-[654.628px] top-[calc(50%+167.12px)]" data-node-id="I244:1936;244:1511">
+                  <div className="absolute inset-[-0.23%]">
+                    <img alt="" className="block max-w-none size-full" src={imgEllipse9} />
+                  </div>
+                </div>
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute h-0 left-[calc(50%-160.61px)] top-[calc(50%+167.85px)] w-[653.328px]" data-node-id="I244:1936;244:1512">
+                  <div className="absolute inset-[-1.5px_-0.23%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector5} />
+                  </div>
+                </div>
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[var(--color\/milky-way-white,white)] content-stretch flex items-center justify-center left-[calc(50%+48.5px)] px-[8px] py-[4px] rounded-[4px] top-[calc(50%-94px)]" data-node-id="I244:1936;244:1622">
+                  <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[normal] not-italic relative shrink-0 text-[24px] text-[color:var(--color\/not-quite-black,#1d1d1d)] whitespace-nowrap" data-node-id="I244:1936;244:1623">
+                    Hold
+                  </p>
+                </div>
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[var(--color\/milky-way-white,white)] content-stretch flex items-center justify-center left-[calc(50%-25px)] px-[8px] py-[4px] rounded-[4px] top-[calc(50%+26px)]" data-node-id="I244:1936;244:1626">
+                  <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[normal] not-italic relative shrink-0 text-[24px] text-[color:var(--color\/not-quite-black,#1d1d1d)] whitespace-nowrap" data-node-id="I244:1936;244:1627">
+                    Trial
+                  </p>
+                </div>
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[var(--color\/milky-way-white,white)] content-stretch flex items-center justify-center left-[calc(50%-95.5px)] px-[8px] py-[4px] rounded-[4px] top-[calc(50%+116px)]" data-node-id="I244:1936;244:1630">
+                  <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[normal] not-italic relative shrink-0 text-[24px] text-[color:var(--color\/not-quite-black,#1d1d1d)] whitespace-nowrap" data-node-id="I244:1936;244:1631">
+                    Adopt
+                  </p>
+                </div>
+                <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-[var(--color\/milky-way-white,white)] content-stretch flex items-center justify-center left-[calc(50%+33px)] px-[8px] py-[4px] rounded-[4px] top-[calc(50%-28px)]" data-node-id="I244:1936;244:1634">
+                  <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[normal] not-italic relative shrink-0 text-[24px] text-[color:var(--color\/not-quite-black,#1d1d1d)] whitespace-nowrap" data-node-id="I244:1936;244:1635">
+                    Assess
+                  </p>
+                </div>
+              </div>
+              <div className="[word-break:break-word] content-stretch flex flex-col gap-[32px] items-start not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] w-full" data-node-id="244:1357">
+                <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="244:1331">
+                  <p className="font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-h4-line-height,41px)] relative shrink-0 text-[length:var(--typography-h4-font-size,34px)] w-[361px]" data-node-id="244:1332">
+                    Adopt
+                  </p>
+                  <p className="font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-large-regular-line-height,36px)] min-w-full relative shrink-0 text-[length:var(--typography-body-large-regular-font-size,24px)] w-[min-content]" data-node-id="244:1333">{`Technologien, die wir bereits erfolgreich in Projekten eingesetzt und dabei positive Erfahrungen gesammelt haben. Die Technologie ist belastbar und bringt einen Mehrwert. Wir bewerten, ob Sie es "ADOPT" schafft.`}</p>
+                </div>
+                <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="244:1334">
+                  <p className="font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-h4-line-height,41px)] relative shrink-0 text-[length:var(--typography-h4-font-size,34px)] w-[361px]" data-node-id="244:1335">
+                    Trial
+                  </p>
+                  <p className="font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-large-regular-line-height,36px)] min-w-full relative shrink-0 text-[length:var(--typography-body-large-regular-font-size,24px)] w-[min-content]" data-node-id="244:1336">
+                    Vielversprechende neue oder bei uns noch nicht in der Breite eingesetzte Technologien, die wir in ersten Projekten verwendet haben oder bei denen wir in Research und Prototypen investieren. Eine finale Meinung steht aus.
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="244:1337">
+                  <p className="font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-h4-line-height,41px)] relative shrink-0 text-[length:var(--typography-h4-font-size,34px)] w-[361px]" data-node-id="244:1338">
+                    Assess
+                  </p>
+                  <p className="font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-large-regular-line-height,36px)] min-w-full relative shrink-0 text-[length:var(--typography-body-large-regular-font-size,24px)] w-[min-content]" data-node-id="244:1339">
+                    Technologien, die wir für neue Projekte nicht nutzen würden. Dies können bekannte Technologien sein, die nicht mehr passen, oder Neue, die (noch) nicht passen. Das bedeutet nicht, daß Sie nicht weiter in bestehenden Projekten genutzt werden.
+                  </p>
+                </div>
+                <div className="content-stretch flex flex-col gap-[16px] items-start relative shrink-0 w-full" data-node-id="244:1340">
+                  <p className="font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-h4-line-height,41px)] relative shrink-0 text-[length:var(--typography-h4-font-size,34px)] w-[361px]" data-node-id="244:1341">
+                    Hold
+                  </p>
+                  <p className="font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-large-regular-line-height,36px)] min-w-full relative shrink-0 text-[length:var(--typography-body-large-regular-font-size,24px)] w-[min-content]" data-node-id="244:1342">
+                    Technologien, die wir für neue Projekte nicht nutzen würden. Dies können bekannte Technologien sein, die nicht mehr passen, oder Neue, die (noch) nicht passen. Das bedeutet nicht, daß Sie nicht weiter in bestehenden Projekten genutzt werden.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="[word-break:break-word] content-stretch flex flex-col gap-[16px] items-start not-italic relative shrink-0 text-[color:var(--color\/not-quite-black,#1d1d1d)] w-full" data-node-id="287:2019">
+              <p className="font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-h2-line-height,55px)] relative shrink-0 text-[length:var(--typography-h2-font-size,48px)] w-[655px]" data-node-id="244:1343">
+                Credits
+              </p>
+              <p className="font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-large-regular-line-height,36px)] min-w-full relative shrink-0 text-[length:var(--typography-body-large-regular-font-size,24px)] w-[min-content]" data-node-id="244:1344">
+                Inspiriert wurde unser TechRadar von den Kollegen von Thoughtworks, mit denen wir in verschiedenen Projekten zusammengearbeitet haben.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="h-[335.4px] relative shrink-0 w-full" data-node-id="244:1125" />
+    </div>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Body/small: Font(family: "Proxima Nova A", style: Regular, size: var(--typography-body-regular-font-size), weight: 400, lineHeight: var(--typography-body-regular-line-height), letterSpacing: 0), Headline/H1: Font(family: "Proxima Nova A", style: Semibold, size: var(--typography-h1-semibold-font-size), weight: 600, lineHeight: var(--typography-h1-semibold-line-height), letterSpacing: 0), Body/default: Font(family: "Proxima Nova A", style: Regular, size: var(--typography-body-large-regular-font-size), weight: 400, lineHeight: var(--typography-body-large-regular-line-height), letterSpacing: 0), Headline/H2: Font(family: "Proxima Nova A", style: Semibold, size: var(--typography-h2-font-size), weight: 600, lineHeight: var(--typography-h2-line-height), letterSpacing: 0), Headline/H3: Font(family: "Proxima Nova A", style: Semibold, size: var(--typography-h3-font-size), weight: 600, lineHeight: var(--typography-h3-line-height), letterSpacing: 0), Headline/H4: Font(family: "Proxima Nova A", style: Semibold, size: var(--typography-h4-font-size), weight: 600, lineHeight: var(--typography-h4-line-height), letterSpacing: 0).
+
+Images and SVGs will be stored as constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

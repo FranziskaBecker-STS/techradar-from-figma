@@ -1,0 +1,379 @@
+const assetPathPrefix = "[temporary-figma-download-url-removed]";
+const imgEllipse1 = `${assetPathPrefix}/8bc88.svg`;
+const imgEllipse2 = `${assetPathPrefix}/e7197.svg`;
+const imgVector6 = `${assetPathPrefix}/50f46.svg`;
+const imgEllipse3 = `${assetPathPrefix}/1b611.svg`;
+const imgEllipse4 = `${assetPathPrefix}/98387.svg`;
+const imgEllipse5 = `${assetPathPrefix}/9a753.svg`;
+const imgEllipse6 = `${assetPathPrefix}/be056.svg`;
+const imgEllipse7 = `${assetPathPrefix}/2deaf.svg`;
+const imgEllipse8 = `${assetPathPrefix}/7db60.svg`;
+const imgEllipse9 = `${assetPathPrefix}/d67e6.svg`;
+const imgVector5 = `${assetPathPrefix}/aee95.svg`;
+const imgAbstract4 = `${assetPathPrefix}/125ab.svg`;
+const imgGroup = `${assetPathPrefix}/e76ac.svg`;
+const imgAdyen4 = `${assetPathPrefix}/3f695.svg`;
+const imgVector = `${assetPathPrefix}/5c0fe.svg`;
+const imgVector1 = `${assetPathPrefix}/4695a.svg`;
+const imgVector2 = `${assetPathPrefix}/2d211.svg`;
+const imgVector3 = `${assetPathPrefix}/b30e2.svg`;
+const imgVector4 = `${assetPathPrefix}/8445b.svg`;
+const imgVector7 = `${assetPathPrefix}/8ff78.svg`;
+const imgVector8 = `${assetPathPrefix}/2f4ea.svg`;
+const imgVector9 = `${assetPathPrefix}/f0177.svg`;
+const imgGroup1 = `${assetPathPrefix}/a341d.svg`;
+const imgGroup2 = `${assetPathPrefix}/1be9a.svg`;
+const imgGroup3 = `${assetPathPrefix}/6239b.svg`;
+const imgAmazonaurora4 = `${assetPathPrefix}/b21ec.svg`;
+const imgAmazonrekognition3 = `${assetPathPrefix}/2b192.svg`;
+const imgAmazonrekognition4 = `${assetPathPrefix}/f0445.svg`;
+const imgAngular2 = `${assetPathPrefix}/80633.svg`;
+const imgAnsible1 = `${assetPathPrefix}/498a2.svg`;
+const imgApachekafka3 = `${assetPathPrefix}/2ad36.svg`;
+const imgApachekafka4 = `${assetPathPrefix}/dc3ef.svg`;
+const imgAbstract5 = `${assetPathPrefix}/2e579.svg`;
+const imgApiGateway1 = `${assetPathPrefix}/977a5.svg`;
+const imgApigee2 = `${assetPathPrefix}/faef8.svg`;
+const imgSyzSimpleIconInformationCircle1 = `${assetPathPrefix}/0b84e.svg`;
+const imgSyzSimpleIconInformationCircle2 = `${assetPathPrefix}/e6fd8.svg`;
+const imgSyzSimpleIconInformationCircle3 = `${assetPathPrefix}/ef2ca.svg`;
+const imgSyzSimpleIconInformationCircle4 = `${assetPathPrefix}/452cf.svg`;
+const imgVector10 = `${assetPathPrefix}/fc5cf.svg`;
+const imgAbstract6 = `${assetPathPrefix}/a417b.svg`;
+const imgAmazonrekognition5 = `${assetPathPrefix}/ab552.svg`;
+const imgAngular3 = `${assetPathPrefix}/0a718.svg`;
+const imgAnsible2 = `${assetPathPrefix}/b7e2d.svg`;
+const imgApachekafka5 = `${assetPathPrefix}/1d616.svg`;
+const imgFrame129 = `${assetPathPrefix}/01386.svg`;
+
+type RadarFullProps = {
+  className?: string;
+  variant?: "Default" | "Hover AWS";
+};
+
+function RadarFull({ className, variant = "Default" }: RadarFullProps) {
+  const isDefault = variant === "Default";
+  const isHoverAws = variant === "Hover AWS";
+  return (
+    <div className={className || "h-[677px] relative w-[661px]"} id={isHoverAws ? "node-220_2520" : "node-13_247"}>
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(50%+0.62px)] size-[316.571px] top-[calc(50%+7.62px)]" id={isHoverAws ? "node-220_2521" : "node-218_2067"}>
+        <div className="absolute inset-[-0.47%]">
+          <img alt="" className="block max-w-none size-full" src={imgEllipse1} />
+        </div>
+      </div>
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute h-[24.986px] left-[calc(50%-100.07px)] top-[calc(50%+128.2px)] w-[29.892px]" id={isHoverAws ? "node-220_2522" : "node-218_2056"}>
+        <div className="absolute inset-[-6%_-5.02%]">
+          <img alt="" className="block max-w-none size-full" src={imgEllipse2} />
+        </div>
+      </div>
+      <div className={`-translate-x-1/2 -translate-y-1/2 absolute flex items-center justify-center left-[calc(50%+0.98px)] ${isHoverAws ? "h-[649.116px] top-[calc(50%+9.65px)] w-[0.147px]" : "h-[661.42px] top-[calc(50%+3.5px)] w-[0.15px]"}`} id={isHoverAws ? "node-220_2523" : "node-13_654"}>
+        <div className="flex-none rotate-90">
+          <div className={`relative ${isHoverAws ? "h-[0.147px] w-[649.116px]" : "h-[0.15px] w-[661.42px]"}`}>
+            <div className={`absolute ${isHoverAws ? "inset-[-1019.95%_-0.23%_-1019.92%_-0.23%]" : "inset-[-1000.97%_-0.23%_-1000.95%_-0.23%]"}`}>
+              <img alt="" className="block max-w-none size-full" src={isHoverAws ? imgVector10 : imgVector6} />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={`absolute ${isHoverAws ? "inset-[38.04%_16.44%_59.58%_82.65%]" : "-translate-x-1/2 -translate-y-1/2 h-[16.145px] left-[calc(50%+218.83px)] top-[calc(50%-72.9px)] w-[5.96px]"}`} id={isHoverAws ? "node-220_2524" : "node-218_1953"}>
+        <div className="absolute inset-[-9.29%_-25.18%]">
+          <img alt="" className="block max-w-none size-full" src={imgEllipse3} />
+        </div>
+      </div>
+      <div className={`absolute ${isHoverAws ? "inset-[42.86%_14.7%_21.12%_70.86%]" : "-translate-x-1/2 -translate-y-1/2 h-[243.884px] left-[calc(50%+185.6px)] top-[calc(50%+73.58px)] w-[95.42px]"}`} id={isHoverAws ? "node-220_2525" : "node-218_2025"}>
+        <div className="absolute inset-[-0.62%_-1.57%]">
+          <img alt="" className="block max-w-none size-full" src={imgEllipse4} />
+        </div>
+      </div>
+      <div className={`absolute ${isHoverAws ? "inset-[79.81%_30.51%_16.39%_61.61%]" : "-translate-x-1/2 -translate-y-1/2 h-[25.75px] left-[calc(50%+102.81px)] top-[calc(50%+214.69px)] w-[52.092px]"}`} id={isHoverAws ? "node-220_2526" : "node-218_2014"}>
+        <div className="absolute inset-[-5.83%_-2.88%]">
+          <img alt="" className="block max-w-none size-full" src={imgEllipse5} />
+        </div>
+      </div>
+      <div className={`absolute ${isHoverAws ? "inset-[16.75%_18.56%_14.5%_14.89%]" : "-translate-x-1/2 -translate-y-1/2 h-[465.378px] left-[calc(50%-12.12px)] top-[calc(50%+7.62px)] w-[439.906px]"}`} id={isHoverAws ? "node-220_2527" : "node-218_1990"}>
+        <div className="absolute inset-[-0.32%_-0.34%]">
+          <img alt="" className="block max-w-none size-full" src={imgEllipse6} />
+        </div>
+      </div>
+      <div className={`absolute ${isHoverAws ? "inset-[9.76%_7.54%_7.51%_7.73%]" : "-translate-x-1/2 -translate-y-1/2 left-[calc(50%+0.62px)] size-[560.087px] top-[calc(50%+7.62px)]"}`} id={isHoverAws ? "node-220_2529" : "node-218_1874"}>
+        <div className="absolute inset-[-0.27%]">
+          <img alt="" className="block max-w-none size-full" src={imgEllipse7} />
+        </div>
+      </div>
+      <div className={`absolute ${isHoverAws ? "inset-[16.85%_73.63%_81.61%_24.19%]" : "-translate-x-1/2 -translate-y-1/2 h-[10.44px] left-[calc(50%-163.4px)] top-[calc(50%-219.22px)] w-[14.414px]"}`} id={isHoverAws ? "node-220_2530" : "node-218_1863"}>
+        <div className="absolute inset-[-14.37%_-10.41%]">
+          <img alt="" className="block max-w-none size-full" src={imgEllipse8} />
+        </div>
+      </div>
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute left-[calc(50%+0.62px)] size-[654.628px] top-[calc(50%+7.62px)]" id={isHoverAws ? "node-220_2531" : "node-1_568"}>
+        <div className="absolute inset-[-0.23%]">
+          <img alt="" className="block max-w-none size-full" src={imgEllipse9} />
+        </div>
+      </div>
+      <div className="-translate-x-1/2 -translate-y-1/2 absolute h-0 left-[calc(50%+0.39px)] top-1/2 w-[653.328px]" id={isHoverAws ? "node-220_2532" : "node-13_647"}>
+        <div className="absolute inset-[-1.5px_-0.23%]">
+          <img alt="" className="block max-w-none size-full" src={imgVector5} />
+        </div>
+      </div>
+      <div className="absolute inset-[2.78%_0.39%_0.53%_0.58%]" id={isHoverAws ? "node-220_2533" : "node-13_346"}>
+        <div className="absolute left-[416.19px] size-[30px] top-[145.2px]" id={isHoverAws ? "node-220_2534" : "node-218_750"} data-name="Abstract 4">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={isHoverAws ? imgAbstract6 : imgAbstract4} />
+        </div>
+        <div className="absolute left-[476.19px] overflow-clip size-[30px] top-[220.2px]" id={isHoverAws ? "node-220_2536" : "node-218_772"} data-name="activemq 1">
+          <div className="absolute inset-[20.99%_32.32%_24.81%_31.5%]" id={isHoverAws ? "node-220_2537" : "node-218_773"} data-name="Group">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+          </div>
+        </div>
+        {isDefault && (
+          <>
+            <div className="absolute left-[434.19px] overflow-clip size-[30px] top-[261.2px]" data-node-id="231:3694" data-name="activemq 2">
+              <div className="absolute inset-[20.99%_32.32%_24.81%_31.5%]" data-node-id="231:3695" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+              </div>
+            </div>
+            <div className="absolute left-[412.19px] size-[30px] top-[230.2px]" data-node-id="218:787" data-name="adyen 4">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAdyen4} />
+            </div>
+          </>
+        )}
+        <div className="absolute left-[454.19px] overflow-clip size-[30px] top-[175.2px]" id={isHoverAws ? "node-220_2553" : "node-218_752"} data-name="allurereport 3">
+          <div className="absolute contents inset-[18%]" id={isHoverAws ? "node-220_2554" : "node-218_771"} data-name="Clip path group">
+            <div className="absolute contents inset-[18%]" id={isHoverAws ? "node-220_2557" : "node-218_753"} data-name="Group">
+              <div className="absolute contents inset-[18%]" id={isHoverAws ? "node-220_2558" : "node-218_768"} data-name="Mask group">
+                <div className="absolute contents inset-[18%]" id={isHoverAws ? "node-220_2561" : "node-218_754"} data-name="Group">
+                  <div className="absolute inset-[25.24%_18.06%_42.8%_60.29%] mask-position-[-12.688px_-2.173px,_-12.688px_-2.173px] mask-size-[19.2px_19.2px,_19.2px_19.2px]" id={isHoverAws ? "node-220_2562" : "node-218_755"} style={{ maskImage: `url("${imgVector}"), url("${imgVector1}")` }} data-name="Vector">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector2} />
+                  </div>
+                  <div className="absolute inset-[18%_25.27%_60.34%_42.8%] mask-position-[-7.44px_0px,_-7.44px_0px] mask-size-[19.2px_19.2px,_19.2px_19.2px]" id={isHoverAws ? "node-220_2563" : "node-218_756"} style={{ maskImage: `url("${imgVector}"), url("${imgVector1}")` }} data-name="Vector">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector3} />
+                  </div>
+                  <div className="absolute inset-[18%_42.8%_25.25%_18%] mask-position-[0px_0px,_0px_0px] mask-size-[19.2px_19.2px,_19.2px_19.2px]" id={isHoverAws ? "node-220_2564" : "node-218_757"} style={{ maskImage: `url("${imgVector}"), url("${imgVector1}")` }} data-name="Vector">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector4} />
+                  </div>
+                  <div className="absolute inset-[60.33%_42.82%_18%_25.23%] mask-position-[-2.17px_-12.699px,_-2.17px_-12.699px] mask-size-[19.2px_19.2px,_19.2px_19.2px]" id={isHoverAws ? "node-220_2565" : "node-218_758"} style={{ maskImage: `url("${imgVector}"), url("${imgVector1}")` }} data-name="Vector">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector7} />
+                  </div>
+                  <div className="absolute inset-[42.8%_18.04%_18%_42.8%] mask-position-[-7.44px_-7.44px,_-7.44px_-7.44px] mask-size-[19.2px_19.2px,_19.2px_19.2px]" id={isHoverAws ? "node-220_2566" : "node-218_759"} style={{ maskImage: `url("${imgVector}"), url("${imgVector1}")` }} data-name="Vector">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector8} />
+                  </div>
+                  <div className="absolute inset-[42.8%_18.04%_18%_67.56%] mask-position-[-14.868px_-7.44px,_-14.868px_-7.44px] mask-size-[19.2px_19.2px,_19.2px_19.2px]" id={isHoverAws ? "node-220_2567" : "node-218_760"} style={{ maskImage: `url("${imgVector}"), url("${imgVector1}")` }} data-name="Vector">
+                    <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgVector9} />
+                  </div>
+                  <div className="absolute contents inset-[42%_18%_42%_67.6%]" id={isHoverAws ? "node-220_2568" : "node-218_765"} data-name="Mask group">
+                    <div className="absolute inset-[25.24%_18.06%_42.8%_60.29%] mask-position-[-12.688px_-2.173px,_-12.688px_-2.173px,_2.192px_5.027px] mask-size-[19.2px_19.2px,_19.2px_19.2px,_4.32px_4.8px]" id={isHoverAws ? "node-220_2571" : "node-218_761"} style={{ maskImage: `url("${imgVector}"), url("${imgVector1}"), url("${imgGroup1}")` }} data-name="Group">
+                      <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup2} />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="absolute left-[228.19px] overflow-clip size-[30px] top-[259.2px]" id={isHoverAws ? "node-220_2573" : "node-218_789"} data-name="alpinejs 1">
+          <div className="absolute inset-[18%]" id={isHoverAws ? "node-220_2574" : "node-218_790"} data-name="Group">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup3} />
+          </div>
+        </div>
+        <div className="absolute left-[246.19px] overflow-clip size-[30px] top-[64.2px]" id={isHoverAws ? "node-220_2577" : "node-218_1702"} data-name="alpinejs 2">
+          <div className="absolute inset-[18%]" id={isHoverAws ? "node-220_2578" : "node-218_1703"} data-name="Group">
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup3} />
+          </div>
+        </div>
+        <div className="absolute left-[344.19px] size-[30px] top-[194.2px]" id={isHoverAws ? "node-220_2581" : "node-218_793"} data-name="amazonaurora 4">
+          <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAmazonaurora4} />
+        </div>
+        {isDefault && (
+          <>
+            <div className="absolute left-[381.19px] size-[30px] top-[203.2px]" data-node-id="218:1750" data-name="amazonaurora 5">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAmazonaurora4} />
+            </div>
+            <div className="absolute left-[344.19px] size-[30px] top-[233.2px]" data-node-id="218:801" data-name="amazonrekognition 3">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAmazonrekognition3} />
+            </div>
+            <div className="absolute left-[378.19px] size-[30px] top-[250.2px]" data-node-id="218:1726" data-name="amazonrekognition 4">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAmazonrekognition4} />
+            </div>
+            <div className="absolute left-[403.19px] size-[30px] top-[284.2px]" data-node-id="218:1738" data-name="amazonrekognition 5">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAmazonrekognition3} />
+            </div>
+            <div className="absolute left-[338.19px] size-[30px] top-[271.2px]" data-node-id="218:1780" data-name="amazonrekognition 6">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAmazonrekognition3} />
+            </div>
+            <div className="absolute left-[369.19px] size-[30px] top-[290.2px]" data-node-id="218:1792" data-name="amazonrekognition 7">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAmazonrekognition3} />
+            </div>
+            <div className="absolute left-[123.19px] size-[30px] top-[366.2px]" data-node-id="218:795" data-name="Angular 2">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAngular2} />
+            </div>
+            <div className="absolute left-[228.19px] size-[30px] top-[349.2px]" data-node-id="218:797" data-name="ansible 1">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAnsible1} />
+            </div>
+            <div className="absolute left-[362.19px] size-[30px] top-[397.2px]" data-node-id="218:799" data-name="apachekafka 3">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgApachekafka3} />
+            </div>
+            <div className="absolute left-[188.19px] size-[30px] top-[159.2px]" data-node-id="218:1636" data-name="apachekafka 4">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgApachekafka4} />
+            </div>
+            <div className="absolute left-[72.19px] size-[30px] top-[224.2px]" data-node-id="218:1648" data-name="Abstract 5">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAbstract5} />
+            </div>
+            <div className="absolute left-[408.19px] size-[30px] top-[349.2px]" data-node-id="218:805" data-name="api-gateway 1">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgApiGateway1} />
+            </div>
+            <div className="absolute left-[146.19px] size-[30px] top-[417.2px]" data-node-id="218:803" data-name="apigee 2">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgApigee2} />
+            </div>
+            <div className="absolute left-[134.19px] size-[30px] top-[66.2px]" data-node-id="218:1680" data-name="Abstract 6">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAbstract5} />
+            </div>
+          </>
+        )}
+        {isHoverAws && (
+          <>
+            <div className="absolute h-[32.068px] left-[362.49px] top-[217.24px] w-[61.815px]" data-node-id="220:2636" />
+            <div className="absolute left-[381.19px] size-[30px] top-[203.2px]" data-node-id="220:2583" data-name="amazonaurora 5">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAmazonaurora4} />
+            </div>
+            <div className="absolute left-[344.19px] size-[30px] top-[233.2px]" data-node-id="220:2585" data-name="amazonrekognition 3">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAmazonrekognition3} />
+            </div>
+            <div className="absolute left-[373.19px] size-[40px] top-[243.2px]" data-node-id="220:2587" data-name="amazonrekognition 4">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAmazonrekognition5} />
+            </div>
+            <div className="absolute left-[403.19px] size-[30px] top-[284.2px]" data-node-id="220:2589" data-name="amazonrekognition 5">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAmazonrekognition3} />
+            </div>
+            <div className="absolute left-[338.19px] size-[30px] top-[271.2px]" data-node-id="220:2591" data-name="amazonrekognition 6">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAmazonrekognition3} />
+            </div>
+            <div className="absolute left-[369.19px] size-[30px] top-[290.2px]" data-node-id="220:2593" data-name="amazonrekognition 7">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAmazonrekognition3} />
+            </div>
+            <div className="absolute left-[123.19px] size-[30px] top-[366.2px]" data-node-id="220:2595" data-name="Angular 2">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAngular3} />
+            </div>
+            <div className="absolute left-[228.19px] size-[30px] top-[349.2px]" data-node-id="220:2597" data-name="ansible 1">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAnsible2} />
+            </div>
+            <div className="absolute left-[362.19px] size-[30px] top-[397.2px]" data-node-id="220:2599" data-name="apachekafka 3">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgApachekafka3} />
+            </div>
+            <div className="absolute left-[188.19px] size-[30px] top-[159.2px]" data-node-id="220:2601" data-name="apachekafka 4">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgApachekafka5} />
+            </div>
+            <div className="absolute left-[72.19px] size-[30px] top-[224.2px]" data-node-id="220:2603" data-name="Abstract 5">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAbstract5} />
+            </div>
+            <div className="absolute left-[408.19px] size-[30px] top-[349.2px]" data-node-id="220:2605" data-name="api-gateway 1">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgApiGateway1} />
+            </div>
+            <div className="absolute left-[146.19px] size-[30px] top-[417.2px]" data-node-id="220:2607" data-name="apigee 2">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgApigee2} />
+            </div>
+            <div className="absolute left-[134.19px] size-[30px] top-[66.2px]" data-node-id="220:2609" data-name="Abstract 6">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAbstract5} />
+            </div>
+            <div className="absolute left-[434.19px] overflow-clip size-[30px] top-[261.2px]" data-node-id="231:3905" data-name="activemq 2">
+              <div className="absolute inset-[20.99%_32.32%_24.81%_31.5%]" data-node-id="231:3906" data-name="Group">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgGroup} />
+              </div>
+            </div>
+            <div className="absolute left-[412.19px] size-[30px] top-[230.2px]" data-node-id="231:3936" data-name="adyen 4">
+              <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgAdyen4} />
+            </div>
+            <div className="-translate-x-1/2 absolute bottom-[66.25%] left-[calc(50%+6.69px)] top-[0.33%] w-[67.996px]" data-node-id="287:2023">
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white content-stretch flex items-center justify-center left-[calc(50%+0.26px)] px-[4px] py-[2px] rounded-[4.689px] top-[calc(50%-99.34px)]" data-node-id="287:2024">
+                <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[#000001] text-[length:var(--typography-flagline-font-size,16px)] whitespace-nowrap" data-node-id="287:2025">
+                  Hold
+                </p>
+                <div className="relative shrink-0 size-[28.136px]" data-node-id="287:2026" data-name="SYZ-simple-icon-information-circle 1">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSyzSimpleIconInformationCircle1} />
+                </div>
+              </div>
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white content-stretch flex items-center justify-center left-1/2 px-[4px] py-[2px] rounded-[4.689px] top-[calc(50%-0.65px)]" data-node-id="287:2028">
+                <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[#000001] text-[length:var(--typography-flagline-font-size,16px)] whitespace-nowrap" data-node-id="287:2029">
+                  Trial
+                </p>
+                <div className="relative shrink-0 size-[28.136px]" data-node-id="287:2030" data-name="SYZ-simple-icon-information-circle 1">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSyzSimpleIconInformationCircle2} />
+                </div>
+              </div>
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white content-stretch flex items-center justify-center left-1/2 px-[4px] py-[2px] rounded-[4.689px] top-[calc(50%+73.82px)]" data-node-id="287:2032">
+                <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[#000001] text-[length:var(--typography-flagline-font-size,16px)] whitespace-nowrap" data-node-id="287:2033">
+                  Adopt
+                </p>
+                <div className="relative shrink-0 size-[28.136px]" data-node-id="287:2034" data-name="SYZ-simple-icon-information-circle 1">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSyzSimpleIconInformationCircle3} />
+                </div>
+              </div>
+              <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white content-stretch flex items-center justify-center left-1/2 px-[4px] py-[2px] rounded-[4.689px] top-[calc(50%-50.65px)]" data-node-id="287:2036">
+                <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[#000001] text-[length:var(--typography-flagline-font-size,16px)] whitespace-nowrap" data-node-id="287:2037">
+                  Assess
+                </p>
+                <div className="relative shrink-0 size-[28.136px]" data-node-id="287:2038" data-name="SYZ-simple-icon-information-circle 1">
+                  <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSyzSimpleIconInformationCircle4} />
+                </div>
+              </div>
+            </div>
+          </>
+        )}
+      </div>
+      <div className={`absolute ${isHoverAws ? "h-[32.068px] left-[366px] top-[223px] w-[61.815px]" : "-translate-x-1/2 bottom-[66.28%] left-[calc(50%+6.5px)] top-[0.3%] w-[67.996px]"}`} id={isHoverAws ? "node-220_2649" : "node-13_557"}>
+        {isDefault && (
+          <>
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white content-stretch flex items-center justify-center left-[calc(50%+0.26px)] px-[4px] py-[2px] rounded-[4.689px] top-[calc(50%-99.08px)]" data-node-id="13:558">
+              <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[#000001] text-[length:var(--typography-flagline-font-size,16px)] whitespace-nowrap" data-node-id="13:559">
+                Hold
+              </p>
+              <div className="relative shrink-0 size-[28.136px]" data-node-id="36:262" data-name="SYZ-simple-icon-information-circle 1">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSyzSimpleIconInformationCircle1} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white content-stretch flex items-center justify-center left-1/2 px-[4px] py-[2px] rounded-[4.689px] top-[calc(50%-0.39px)]" data-node-id="13:560">
+              <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[#000001] text-[length:var(--typography-flagline-font-size,16px)] whitespace-nowrap" data-node-id="13:561">
+                Trial
+              </p>
+              <div className="relative shrink-0 size-[28.136px]" data-node-id="36:272" data-name="SYZ-simple-icon-information-circle 1">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSyzSimpleIconInformationCircle2} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white content-stretch flex items-center justify-center left-1/2 px-[4px] py-[2px] rounded-[4.689px] top-[calc(50%+74.08px)]" data-node-id="13:562">
+              <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[#000001] text-[length:var(--typography-flagline-font-size,16px)] whitespace-nowrap" data-node-id="13:563">
+                Adopt
+              </p>
+              <div className="relative shrink-0 size-[28.136px]" data-node-id="36:277" data-name="SYZ-simple-icon-information-circle 1">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSyzSimpleIconInformationCircle3} />
+              </div>
+            </div>
+            <div className="-translate-x-1/2 -translate-y-1/2 absolute bg-white content-stretch flex items-center justify-center left-1/2 px-[4px] py-[2px] rounded-[4.689px] top-[calc(50%-50.39px)]" data-node-id="13:564">
+              <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[#000001] text-[length:var(--typography-flagline-font-size,16px)] whitespace-nowrap" data-node-id="13:565">
+                Assess
+              </p>
+              <div className="relative shrink-0 size-[28.136px]" data-node-id="36:267" data-name="SYZ-simple-icon-information-circle 1">
+                <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgSyzSimpleIconInformationCircle4} />
+              </div>
+            </div>
+          </>
+        )}
+        {isHoverAws && (
+          <>
+            <img alt="" className="absolute block inset-0 max-w-none size-full" src={imgFrame129} />
+            <p className="[word-break:break-word] absolute font-['Proxima_Nova_A:Semibold'] inset-[22.73%_24.11%_27.37%_20.89%] leading-[normal] not-italic text-[16px] text-white whitespace-nowrap" data-node-id="220:2651">
+              AWS
+            </p>
+          </>
+        )}
+      </div>
+    </div>
+  );
+}
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+These styles are contained in the design: Body/flagline: Font(family: "Proxima Nova A", style: Semibold, size: var(--typography-flagline-font-size), weight: 600, lineHeight: var(--typography-flagline-line-height), letterSpacing: 0).
+Images and SVGs will be stored as constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

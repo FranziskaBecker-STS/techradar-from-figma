@@ -1,0 +1,120 @@
+Figma reference: 92:864; exact open right variant: 92:865
+Read-only MCP design context and screenshot inspected on 2026-10-06.
+Homepage instance 287:2561;112:3658 in 287-2479.txt uses label 20/30 px, rather than the standalone component's 16/24 px.
+
+const assetPathPrefix = "[temporary-figma-download-url-removed]";
+const imgVector2 = `${assetPathPrefix}/79926.svg`;
+const imgVector3 = `${assetPathPrefix}/d787b.svg`;
+
+type ThemaDropdownProps = {
+  className?: string;
+  alignment?: "right";
+  closed?: boolean;
+};
+
+function ThemaDropdown({ className, alignment = "right", closed = true }: ThemaDropdownProps) {
+  if (!closed && alignment === "right") {
+    return (
+      <div className={className || "content-stretch flex flex-col gap-[4px] items-end relative"} data-node-id="92:865" data-name="Closed=false, Alignment=right">
+        <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0" data-node-id="92:866">
+          <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] min-w-full not-italic relative shrink-0 text-[length:var(--typography-flagline-font-size,16px)] text-black w-[min-content]" data-node-id="92:867">
+            Thema
+          </p>
+          <div className="bg-white border-[1.5px] border-black border-solid content-stretch flex gap-[20px] items-center justify-center p-[10px] relative rounded-[4px] shrink-0" data-node-id="92:868">
+            <p className="[word-break:break-word] font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-regular-line-height,30px)] not-italic relative shrink-0 text-[length:var(--typography-body-regular-font-size,20px)] text-black whitespace-nowrap" data-node-id="92:869">
+              Alle
+            </p>
+            <div className="flex items-center justify-center relative shrink-0" data-node-id="92:870">
+              <div className="flex-none rotate-180">
+                <div className="h-[5.39px] relative w-[10.78px]">
+                  <div className="absolute inset-[-13.91%_-6.96%_-19.68%_-6.96%]">
+                    <img alt="" className="block max-w-none size-full" src={imgVector3} />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button className="absolute bg-white border-[1.5px] border-black border-solid content-stretch cursor-pointer flex flex-col items-start left-[-167.22px] min-w-[220px] overflow-clip py-[4px] rounded-[4px] shadow-[0px_4px_12px_0px_rgba(0,0,0,0.1)] top-[81px] w-[254px]" data-node-id="92:871" data-name="Dropdown List">
+          <div className="bg-[#f2f2f2] content-stretch flex items-center overflow-clip p-[10px] relative shrink-0 w-full" data-node-id="92:872" data-name="Alle">
+            <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] not-italic relative shrink-0 text-[length:var(--typography-flagline-font-size,16px)] text-black text-left whitespace-nowrap" data-node-id="92:873">
+              Alle
+            </p>
+          </div>
+          <div className="content-stretch flex items-center overflow-clip p-[10px] relative shrink-0 w-full" data-node-id="92:874" data-name="Backend">
+            <p className="[word-break:break-word] font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-regular-line-height,30px)] not-italic relative shrink-0 text-[length:var(--typography-body-regular-font-size,20px)] text-black text-left whitespace-nowrap" data-node-id="92:875">
+              Backend
+            </p>
+          </div>
+          <div className="content-stretch flex items-center overflow-clip p-[10px] relative shrink-0 w-full" data-node-id="92:876" data-name="Cloud">
+            <p className="[word-break:break-word] font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-regular-line-height,30px)] not-italic relative shrink-0 text-[length:var(--typography-body-regular-font-size,20px)] text-black text-left whitespace-nowrap" data-node-id="92:877">
+              Cloud
+            </p>
+          </div>
+          <div className="content-stretch flex items-center overflow-clip p-[10px] relative shrink-0 w-full" data-node-id="92:878" data-name="Commerce">
+            <p className="[word-break:break-word] font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-regular-line-height,30px)] not-italic relative shrink-0 text-[length:var(--typography-body-regular-font-size,20px)] text-black text-left whitespace-nowrap" data-node-id="92:879">
+              Commerce
+            </p>
+          </div>
+          <div className="content-stretch flex items-center overflow-clip p-[10px] relative shrink-0 w-full" data-node-id="92:880" data-name="CRM">
+            <p className="[word-break:break-word] font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-regular-line-height,30px)] not-italic relative shrink-0 text-[length:var(--typography-body-regular-font-size,20px)] text-black text-left whitespace-nowrap" data-node-id="92:881">
+              CRM
+            </p>
+          </div>
+          <div className="content-stretch flex items-center overflow-clip p-[10px] relative shrink-0 w-full" data-node-id="92:882" data-name="CX Platforms">
+            <p className="[word-break:break-word] font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-regular-line-height,30px)] not-italic relative shrink-0 text-[length:var(--typography-body-regular-font-size,20px)] text-black text-left whitespace-nowrap" data-node-id="92:883">
+              CX Platforms
+            </p>
+          </div>
+          <div className="content-stretch flex items-center overflow-clip p-[10px] relative shrink-0 w-full" data-node-id="92:884" data-name="DevOps & Security">
+            <p className="[word-break:break-word] font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-regular-line-height,30px)] not-italic relative shrink-0 text-[length:var(--typography-body-regular-font-size,20px)] text-black text-left whitespace-nowrap" data-node-id="92:885">{`DevOps & Security`}</p>
+          </div>
+          <div className="content-stretch flex items-center overflow-clip p-[10px] relative shrink-0 w-full" data-node-id="92:886" data-name="Digital Workplace">
+            <p className="[word-break:break-word] font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-regular-line-height,30px)] not-italic relative shrink-0 text-[length:var(--typography-body-regular-font-size,20px)] text-black text-left whitespace-nowrap" data-node-id="92:887">
+              Digital Workplace
+            </p>
+          </div>
+          <div className="content-stretch flex items-center overflow-clip p-[10px] relative shrink-0 w-full" data-node-id="92:888" data-name="Frontend & UX & Design">
+            <p className="[word-break:break-word] font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-regular-line-height,30px)] not-italic relative shrink-0 text-[length:var(--typography-body-regular-font-size,20px)] text-black text-left whitespace-nowrap" data-node-id="92:889">{`Frontend & UX & Design`}</p>
+          </div>
+          <div className="content-stretch flex items-center overflow-clip p-[10px] relative shrink-0 w-full" data-node-id="92:890" data-name="Hosting & Operation">
+            <p className="[word-break:break-word] font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-regular-line-height,30px)] not-italic relative shrink-0 text-[length:var(--typography-body-regular-font-size,20px)] text-black text-left whitespace-nowrap" data-node-id="92:891">{`Hosting & Operation`}</p>
+          </div>
+        </button>
+      </div>
+    );
+  }
+  return (
+    <button className={className || "content-stretch cursor-pointer flex flex-col items-end relative"} data-node-id="92:863" data-name="Closed=true, Alignment=right">
+      <div className="content-stretch flex flex-col gap-[10px] items-start relative shrink-0" data-node-id="92:857">
+        <p className="[word-break:break-word] font-['Proxima_Nova_A:Semibold'] leading-[var(--typography-flagline-line-height,24px)] min-w-full not-italic relative shrink-0 text-[length:var(--typography-flagline-font-size,16px)] text-black text-left w-[min-content]" data-node-id="92:858">
+          Thema
+        </p>
+        <div className="bg-white border-[1.5px] border-black border-solid content-stretch flex gap-[20px] items-center justify-center p-[10px] relative rounded-[4px] shrink-0" data-node-id="92:859">
+          <p className="[word-break:break-word] font-['Proxima_Nova_A:Regular'] leading-[var(--typography-body-regular-line-height,30px)] not-italic relative shrink-0 text-[length:var(--typography-body-regular-font-size,20px)] text-black text-left whitespace-nowrap" data-node-id="92:860">
+            Alle
+          </p>
+          <div className="h-[5.39px] relative shrink-0 w-[10.78px]" data-node-id="92:861">
+            <div className="absolute inset-[-13.91%_-6.96%_-19.68%_-6.96%]">
+              <img alt="" className="block max-w-none size-full" src={imgVector2} />
+            </div>
+          </div>
+        </div>
+      </div>
+    </button>
+  );
+}
+
+SUPER CRITICAL: The generated React+Tailwind code MUST be converted to match the target project's technology stack and styling system.
+1. Analyze the target codebase to identify: technology stack, styling approach, component patterns, and design tokens
+2. Convert React syntax to the target framework/library
+3. Transform all Tailwind classes to the target styling system while preserving exact visual design
+4. Follow the project's existing patterns and conventions
+DO NOT install any Tailwind as a dependency unless the user instructs you to do so.
+
+
+Node ids have been added to the code as data attributes, e.g. `data-node-id="1:2"`.
+
+These styles are contained in the design: Body/flagline: Font(family: "Proxima Nova A", style: Semibold, size: var(--typography-flagline-font-size), weight: 600, lineHeight: var(--typography-flagline-line-height), letterSpacing: 0), Body/small: Font(family: "Proxima Nova A", style: Regular, size: var(--typography-body-regular-font-size), weight: 400, lineHeight: var(--typography-body-regular-line-height), letterSpacing: 0).
+
+Images and SVGs will be stored as constants, e.g. const image = `${assetPathPrefix}/<asset file name>`, where assetPathPrefix is declared once at the top of the code and every asset URL interpolates it. These constants will be used in the code as the source for the image, ex: <img src={image} />. Image assets are stored on a remote server for 7 days and can be fetched using the provided URLs until they expire.

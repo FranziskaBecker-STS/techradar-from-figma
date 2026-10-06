@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-06",
+  "figmaReference": "304:3046",
+  "referenceReadViaMCP": true,
+  "figmaScreenshotInspected": true,
+  "routesUpdated": ["/techniques", "/techniques/devops"],
+  "changes": [
+    "quadrant proportionally fits both available width and height at the top right",
+    "mobile quadrant fits between navigation and copy",
+    "five persistent black hover layers with smooth 300 ms transitions",
+    "shared hover timing and tooltip components with homepage",
+    "keyboard focus, Escape and reduced-motion support"
+  ],
+  "buildPassed": true,
+  "hoverTimingTests": { "passed": 5, "failed": 0 },
+  "browserScriptSyntaxPassed": true,
+  "localQuadrantAssetsChecked": 41,
+  "missingAssets": [],
+  "interactiveOriginalLogoLayers": 5,
+  "originalHoverSvgNativeSize": { "width": 34.8296, "height": 34.8296 },
+  "browserCheckPerformed": false,
+  "renderedGeometryCheckPerformed": false,
+  "visualAnimationCheckPerformed": false,
+  "blockingReason": "Browser Use again rejected localhost access because the admin-enforced policy could not be verified. No bypass attempted.",
+  "pendingChecks": [
+    "complete quadrant inside hero on desktop, intermediate and mobile widths",
+    "all five black hover states and tooltip positions",
+    "visual smoothness and reduced-motion behavior",
+    "compact mobile DevOps layout"
+  ],
+  "openPoints": [
+    "Tools and Platforms routes are outside the existing implemented flow",
+    "example logo labels derive from Figma layer names; reference tooltip says AWS on the Kafka logo"
+  ]
+}
