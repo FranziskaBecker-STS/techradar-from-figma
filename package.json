@@ -14,7 +14,9 @@
     "test:keyboard": "node --test scripts/keyboard-flow-check.mjs",
     "test:details": "node --test scripts/detail-content-check.mjs",
     "test:logos": "node --test scripts/radar-logo-check.mjs",
-    "test": "node --test scripts/radar-hover-check.mjs scripts/technology-select-check.mjs scripts/detail-content-check.mjs scripts/radar-logo-check.mjs scripts/topic-select-check.mjs scripts/keyboard-flow-check.mjs"
+    "test": "node --test scripts/radar-hover-check.mjs scripts/technology-select-check.mjs scripts/detail-content-check.mjs scripts/radar-logo-check.mjs scripts/topic-select-check.mjs scripts/keyboard-flow-check.mjs",
+    "build:pages": "tsc -b && vite build --mode github-pages && node scripts/prepare-pages.mjs",
+    "test:pages": "node --test scripts/pages-check.mjs"
   },
   "dependencies": {
     "react": "^19.2.0",

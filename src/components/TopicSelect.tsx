@@ -1,3 +1,4 @@
+import { publicAsset } from '../assetUrls';
 import { useCallback, useEffect, useId, useRef, useState, type KeyboardEvent } from 'react';
 import { topics } from '../data';
 import { findOptionByPrefix, moveOption, type OptionKey } from './technologySelectKeyboard';
@@ -118,7 +119,7 @@ export function TopicSelect({ value, onChange }: { value: string; onChange: (val
         onClick={() => open ? setOpen(false) : show()} onKeyDown={keyboard}>
         <span className="topic-select-value" id={valueId} title={value}>{value}</span>
         <span className="topic-select-arrow" data-open={open} aria-hidden="true">
-          <img src={open ? '/assets/topic-arrow-up.svg' : '/assets/topic-arrow-down.svg'} alt="" />
+          <img src={publicAsset(open ? '/assets/topic-arrow-up.svg' : '/assets/topic-arrow-down.svg')} alt="" />
         </span>
       </button>
       <div ref={popup} id={listId} hidden={!open} className="topic-select-options" role="listbox" aria-labelledby={labelId}

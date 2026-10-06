@@ -1,3 +1,4 @@
+import { publicAsset } from '../assetUrls';
 import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import { FigmaAsset } from './FigmaAsset';
@@ -5,7 +6,7 @@ import { HeroQuadrant } from './HeroQuadrant';
 import { categoryPaths, quadrantPages, rings, ringDescriptions, technologyArticles, type Category, type QuadrantKey, type Technology, type TechnologyArticle } from '../data';
 
 export function Arrow({ white = false }: { white?: boolean }) {
-  return <span className="arrow" aria-hidden="true"><img src={`/assets/${white ? '6ace2' : '88924'}.svg`} alt="" /></span>;
+  return <span className="arrow" aria-hidden="true"><img src={publicAsset(`/assets/${white ? '6ace2' : '88924'}.svg`)} alt="" /></span>;
 }
 export function TextLink({ to, children, white = false }: { to?: string; children: ReactNode; white?: boolean }) {
   const contents = <><Arrow white={white} /><span>{children}</span></>;
@@ -28,22 +29,22 @@ export function Hero({ page, article }: HeroProps) {
   const staticDesktopArt = home || page === 'detail';
   return <header className={`hero hero-${page}${categoryPage ? ' hero-quadrant-page' : ''}`}>
     <div className="hero-container container">
-      <div className="brand-row"><Brand /><button className="mobile-menu" disabled aria-label="Menü – noch nicht Teil der Vorschau" title="Menüinhalt noch nicht festgelegt"><img src="/assets/86f52.svg" alt="" /></button></div>
+      <div className="brand-row"><Brand /><button className="mobile-menu" disabled aria-label="Menü – noch nicht Teil der Vorschau" title="Menüinhalt noch nicht festgelegt"><img src={publicAsset('/assets/86f52.svg')} alt="" /></button></div>
       {!home && <div className="hero-breadcrumb"><Breadcrumbs detail={page === 'detail'} detailName={article?.name} category={config.category} /></div>}
       <div className="hero-art-region" aria-hidden="true">
         <div className="hero-art hero-art-mobile hero-art-mobile-static">
-          <img src="/assets/b4102.svg" alt="" />
+          <img src={publicAsset('/assets/b4102.svg')} alt="" />
         </div>
       </div>
       <div className="hero-copy">
-        {home ? <><h1>Technologie komprimiert:<span>Updates, Trends,<br className="desktop-break" /> Entwicklungen</span></h1><img className="brand-slash" src="/assets/2d579.svg" alt="" /></>
+        {home ? <><h1>Technologie komprimiert:<span>Updates, Trends,<br className="desktop-break" /> Entwicklungen</span></h1><img className="brand-slash" src={publicAsset('/assets/2d579.svg')} alt="" /></>
           : categoryPage ? <><h1>{config.category}</h1><p>{config.description}</p><nav className="category-jumps" aria-label="Andere Quadranten">{config.links.map(key => <TextLink key={key} white to={categoryPaths[quadrantPages[key].category]}>Zu {quadrantPages[key].category}</TextLink>)}</nav></>
           : <><h1>{article?.headline}</h1><p>{article?.teaser}</p></>}
       </div>
-      <a className="scroll-cue" href="#content" aria-label="Zum Inhalt"><span><img src="/assets/eb7c8.png" alt="" /></span></a>
+      <a className="scroll-cue" href="#content" aria-label="Zum Inhalt"><span><img src={publicAsset('/assets/eb7c8.png')} alt="" /></span></a>
     </div>
     <div className={`hero-art hero-art-desktop${staticDesktopArt ? '' : ' hero-quadrant-desktop'}`} aria-hidden={staticDesktopArt || undefined}>
-      {staticDesktopArt ? <img src="/assets/7b448.svg" alt="" /> : <HeroQuadrant quadrant={quadrant} />}
+      {staticDesktopArt ? <img src={publicAsset('/assets/7b448.svg')} alt="" /> : <HeroQuadrant quadrant={quadrant} />}
     </div>
   </header>;
 }

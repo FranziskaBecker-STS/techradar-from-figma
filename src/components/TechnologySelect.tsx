@@ -1,3 +1,4 @@
+import { publicAsset } from '../assetUrls';
 import { useCallback, useEffect, useId, useRef, useState, type KeyboardEvent } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { rings, type Technology } from '../data';
@@ -125,7 +126,7 @@ export function TechnologySelect({ items, currentId, label = 'Techniques durchsu
         aria-activedescendant={open ? `${id}-option-${activeIndex}` : undefined}
         onClick={() => open ? setOpen(false) : show()} onKeyDown={keyboard}>
         <span id={valueId}>{selected?.name ?? 'Thema auswählen'}</span>
-        <span className="detail-select-arrow" aria-hidden="true"><img src="/assets/2a73c.svg" alt="" /></span>
+        <span className="detail-select-arrow" aria-hidden="true"><img src={publicAsset('/assets/2a73c.svg')} alt="" /></span>
       </button>
       <div ref={popup} id={listId} hidden={!open} className="detail-select-options" role="listbox" aria-labelledby={labelId}
         data-placement={placement} data-keyboard={keyboardMode} style={{ maxHeight: popupHeight }}>

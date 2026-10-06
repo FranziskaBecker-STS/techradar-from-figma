@@ -1,3 +1,4 @@
+import { publicAsset } from '../assetUrls';
 // Fixed vector artwork from high fidelity Figma MCP output. Do not use screenshots as assets.
 import { FigmaAsset } from "./FigmaAsset";
 import "./illustrations.css";
@@ -79,26 +80,26 @@ export function FullRadar({ highlightedLogos = [] }: { highlightedLogos?: string
                   <div className="f33" data-node-id="I287:2579;218:753" data-name="Group">
                     <div className="f33" data-node-id="I287:2579;218:768" data-name="Mask group">
                       <div className="f33" data-node-id="I287:2579;218:754" data-name="Group">
-                        <div className="f34" data-node-id="I287:2579;218:755" style={{ maskImage: `url("/assets/5c0fe.svg"), url("/assets/4695a.svg")` }} data-name="Vector">
+                        <div className="f34" data-node-id="I287:2579;218:755" style={{ maskImage: `url("${publicAsset('/assets/5c0fe.svg')}"), url("${publicAsset('/assets/4695a.svg')}")` }} data-name="Vector">
                           <FigmaAsset alt="" className="f27" src="/assets/77c72.svg" />
                         </div>
-                        <div className="f35" data-node-id="I287:2579;218:756" style={{ maskImage: `url("/assets/5c0fe.svg"), url("/assets/4695a.svg")` }} data-name="Vector">
+                        <div className="f35" data-node-id="I287:2579;218:756" style={{ maskImage: `url("${publicAsset('/assets/5c0fe.svg')}"), url("${publicAsset('/assets/4695a.svg')}")` }} data-name="Vector">
                           <FigmaAsset alt="" className="f27" src="/assets/ab7bc.svg" />
                         </div>
-                        <div className="f36" data-node-id="I287:2579;218:757" style={{ maskImage: `url("/assets/5c0fe.svg"), url("/assets/4695a.svg")` }} data-name="Vector">
+                        <div className="f36" data-node-id="I287:2579;218:757" style={{ maskImage: `url("${publicAsset('/assets/5c0fe.svg')}"), url("${publicAsset('/assets/4695a.svg')}")` }} data-name="Vector">
                           <FigmaAsset alt="" className="f27" src="/assets/0375d.svg" />
                         </div>
-                        <div className="f37" data-node-id="I287:2579;218:758" style={{ maskImage: `url("/assets/5c0fe.svg"), url("/assets/4695a.svg")` }} data-name="Vector">
+                        <div className="f37" data-node-id="I287:2579;218:758" style={{ maskImage: `url("${publicAsset('/assets/5c0fe.svg')}"), url("${publicAsset('/assets/4695a.svg')}")` }} data-name="Vector">
                           <FigmaAsset alt="" className="f27" src="/assets/4b1b1.svg" />
                         </div>
-                        <div className="f38" data-node-id="I287:2579;218:759" style={{ maskImage: `url("/assets/5c0fe.svg"), url("/assets/4695a.svg")` }} data-name="Vector">
+                        <div className="f38" data-node-id="I287:2579;218:759" style={{ maskImage: `url("${publicAsset('/assets/5c0fe.svg')}"), url("${publicAsset('/assets/4695a.svg')}")` }} data-name="Vector">
                           <FigmaAsset alt="" className="f27" src="/assets/d877a.svg" />
                         </div>
-                        <div className="f39" data-node-id="I287:2579;218:760" style={{ maskImage: `url("/assets/5c0fe.svg"), url("/assets/4695a.svg")` }} data-name="Vector">
+                        <div className="f39" data-node-id="I287:2579;218:760" style={{ maskImage: `url("${publicAsset('/assets/5c0fe.svg')}"), url("${publicAsset('/assets/4695a.svg')}")` }} data-name="Vector">
                           <FigmaAsset alt="" className="f27" src="/assets/0b4e0.svg" />
                         </div>
                         <div className="f40" data-node-id="I287:2579;218:765" data-name="Mask group">
-                          <div className="f41" data-node-id="I287:2579;218:761" style={{ maskImage: `url("/assets/5c0fe.svg"), url("/assets/4695a.svg"), url("/assets/a341d.svg")` }} data-name="Group">
+                          <div className="f41" data-node-id="I287:2579;218:761" style={{ maskImage: `url("${publicAsset('/assets/5c0fe.svg')}"), url("${publicAsset('/assets/4695a.svg')}"), url("${publicAsset('/assets/a341d.svg')}")` }} data-name="Group">
                             <FigmaAsset alt="" className="f27" src="/assets/0058e.svg" />
                           </div>
                         </div>

@@ -1,3 +1,4 @@
+import { publicAsset } from '../assetUrls';
 import { type CSSProperties } from 'react';
 import { Link } from 'react-router-dom';
 import { technologyArticles } from '../data';
@@ -11,7 +12,7 @@ import { radarLogos as logos, radarConnections as connections } from './radarLog
 
 function RadarSymbol({ symbol, className, style }: { symbol: string; className?: string; style?: CSSProperties }) {
   return <svg className={`radar-symbol${className ? ` ${className}` : ''}`} viewBox="0 0 50 50" aria-hidden="true" focusable="false" style={style}>
-    <use href={`/assets/current-techradar-logos.svg#${symbol}`} />
+    <use href={publicAsset(`/assets/current-techradar-logos.svg#${symbol}`)} />
   </svg>;
 }
 export function InteractiveRadar({ filtered }: { filtered: boolean }) {

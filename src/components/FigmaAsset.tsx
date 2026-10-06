@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState, type CSSProperties } from 'react';
+import { publicAsset } from '../assetUrls';
 
 type Props = { src: string; alt?: string; className?: string; style?: CSSProperties; 'data-node-id'?: string; 'data-name'?: string; 'data-quadrant-logo'?: string };
 
@@ -20,7 +21,7 @@ export function FigmaAsset({ src, alt = '', ...props }: Props) {
     return () => observer.disconnect();
   }, [native]);
   return <span {...props} ref={slot} data-asset={src}>
-    <img src={src} alt={alt} onLoad={e => setNative({ width: e.currentTarget.naturalWidth, height: e.currentTarget.naturalHeight })}
+    <img src={publicAsset(src)} alt={alt} onLoad={e => setNative({ width: e.currentTarget.naturalWidth, height: e.currentTarget.naturalHeight })}
       style={{ display: 'block', width: native.width || undefined, height: native.height || undefined, maxWidth: 'none', transformOrigin: '0 0', transform: `scale(${scale.x},${scale.y})`, opacity: native.width ? 1 : 0 }} />
   </span>;
 }

@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-06",
+  "provider": "GitHub Pages",
+  "expectedUrl": "https://franziskabecker-sts.github.io/techradar-from-figma/",
+  "status": "deployment preparation; use GitHub Actions to confirm publication",
+  "applicationBase": "/techradar-from-figma/",
+  "existingRoutes": 12,
+  "changes": ["shared public asset URL helper", "router basename", "entry documents for existing direct routes", "automatic build, tests and deployment on main", "documented one-time Pages activation"],
+  "localChecks": {
+    "standardBuild": "passed",
+    "pagesBuild": "passed",
+    "existingTests": {"passed": 27, "failed": 0},
+    "pagesTests": {"passed": 2, "failed": 0},
+    "coverage": "HTML rendering of all existing routes at the repository base; asset and link prefixes; original SVGs; built JS/CSS references; direct route entry files"
+  },
+  "limitations": ["Pages activation must be confirmed in repository settings; connector has no Pages-settings write tool", "administrative browser policy could not be verified before accessing github.com, so browser access was blocked", "HTML and artifact checks do not verify browser layout, clicks or keyboard interaction", "Proxima Nova A still uses a local font installation; no licensed webfont has been added"],
+  "references": ["https://vite.dev/guide/static-deploy#github-pages", "https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages"]
+}

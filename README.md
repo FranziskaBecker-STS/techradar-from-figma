@@ -261,3 +261,16 @@ Die Schrift Proxima Nova A wird bisher über eine lokale Installation geladen. E
 
 
 Der GitHub-Export wurde in einer frischen Installation mit npm ci geprüft: Produktionsbuild und alle 27 automatisierten Prüfungen bestanden. npm test bündelt die Prüfungen für Daten, Artikel, SVG-Originale, Hover-Zeitsteuerung, Tastaturhilfen und Komponenten-HTML. Die Browserprüfung ist davon getrennt und bleibt wegen der bereits dokumentierten lokalen Zugriffssperre ungeprüft. Für die direkten HTML-Prüfungen ist die Hintergrundsuche nach Browser-Abhängigkeiten deaktiviert, damit ihr eigener Prüfserver sauber beendet werden kann.
+
+
+## Öffentliche Vorschau mit GitHub Pages
+
+Die Vorschau ist für https://franziskabecker-sts.github.io/techradar-from-figma/ vorbereitet. Dieser Link ist erst nach einem erfolgreichen Pages-Deployment erreichbar. Der GitHub-Repository-Link zeigt den Quellcode; localhost/127.0.0.1 ist nur auf dem jeweiligen Rechner erreichbar.
+
+Einmalig im Repository unter Settings → Pages → Build and deployment → Source die Option GitHub Actions auswählen. Der Workflow `.github/workflows/pages.yml` prüft und veröffentlicht anschließend jeden neuen Stand auf main. Ein fehlgeschlagener erster Lauf kann unter Actions → Publish Techradar preview → Re-run all jobs erneut gestartet werden; außerdem gibt es Run workflow.
+
+Für den Pages-Build `npm run build:pages` und anschließend `npm run test:pages` ausführen. Der Build verwendet `/techradar-from-figma/` als Basis für Navigation, Bilder, SVG-Symbole und Masken. Alle zwölf bestehenden Routen erhalten eigene index.html-Dateien, sodass auch direkt geteilte Detailseiten und Neuladen funktionieren. Die App und ihre vorhandenen Inhalte werden weiterhin gemeinsam aus denselben Komponenten aufgebaut. Lokal verwenden npm run dev und npm run build unverändert die Basis `/`. Ein Repository- oder Domainwechsel erfordert die entsprechende Anpassung in vite.config.ts und scripts/prepare-pages.mjs.
+
+Node.js 24 wird für die Veröffentlichung verwendet. Für einen reproduzierbaren lokalen Ablauf ebenfalls Node.js 24 verwenden. Veröffentlichte Artikel und Daten bleiben die vorhandene Demonstration; die Schrift Proxima Nova A benötigt weiterhin eine passende lokale Installation beziehungsweise eine noch bereitzustellende lizenzierte Webfont-Datei.
+
+Dokumentation: [Vite: GitHub Pages](https://vite.dev/guide/static-deploy#github-pages), [GitHub: Pages mit GitHub Actions](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages).
