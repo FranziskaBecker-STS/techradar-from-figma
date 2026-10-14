@@ -34,7 +34,7 @@ export class RadarHover {
     if (keyboard || !this.active || this.active === id) this.show(id);
     else this.timer = this.scheduler.schedule(() => {
       if (this.pointer === id || this.focused === id) this.show(id);
-    }, 300);
+    }, 200);
   }
   leave(keyboard = false) {
     if (keyboard) this.focused = null; else this.pointer = null;

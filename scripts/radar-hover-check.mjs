@@ -21,18 +21,18 @@ test('initial hover is immediate; empty space retains group for 800 ms', () => {
   hover.leave(); advance(799); assert.equal(hover.active, 'aws');
   advance(1); assert.equal(hover.active, null);
 });
-test('connected-logo switch waits for 300 ms on the new logo', () => {
+test('connected-logo switch waits for 200 ms on the new logo', () => {
   const { hover, advance } = setup();
   hover.enter('aws'); hover.leave(); advance(400); hover.enter('abstract');
-  advance(299); assert.equal(hover.active, 'aws');
+  advance(199); assert.equal(hover.active, 'aws');
   advance(1); assert.equal(hover.active, 'abstract');
 });
 test('moving back and forth cancels stale switches and keeps old group', () => {
   const { hover, advance } = setup();
-  hover.enter('aws'); hover.leave(); hover.enter('abstract'); advance(200);
+  hover.enter('aws'); hover.leave(); hover.enter('abstract'); advance(150);
   hover.leave(); hover.enter('aws'); advance(400); assert.equal(hover.active, 'aws');
-  hover.leave(); hover.enter('adyen'); advance(150); hover.leave(); hover.enter('abstract');
-  advance(299); assert.equal(hover.active, 'aws'); advance(1); assert.equal(hover.active, 'abstract');
+  hover.leave(); hover.enter('adyen'); advance(100); hover.leave(); hover.enter('abstract');
+  advance(199); assert.equal(hover.active, 'aws'); advance(1); assert.equal(hover.active, 'abstract');
 });
 test('keyboard focus updates immediately and remains while pointer leaves', () => {
   const { hover, advance } = setup();
